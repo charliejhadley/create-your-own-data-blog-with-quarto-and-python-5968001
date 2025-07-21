@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "actual-blog"
@@ -16,6 +17,4 @@ format:
       - cosmo
       - brand
     css: styles.css
-
-
 
