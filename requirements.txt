@@ -2,7 +2,7 @@
 pandas
 plotnine
 scikit-misc
-sklearn
+scikit-learn
 palmerpenguins
 jupyter-cache
 lorem_text
