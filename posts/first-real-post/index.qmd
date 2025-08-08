@@ -1,0 +1,12 @@
+---
+title: "Our first real post"
+date: "2025-08-08"
+---
+
+The penguins dataset is always useful!
+
+```{python}
+from palmerpenguins import load_penguins 
+penguins = load_penguins()
+penguins
+```
