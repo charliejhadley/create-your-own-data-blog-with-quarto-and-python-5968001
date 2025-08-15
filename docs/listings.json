@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/coffee-blog.html",
+    "items": [
+      "/coffee-reviews/dareshack/index.html",
+      "/coffee-reviews/cortado/index.html"
+    ]
+  },
+  {
+    "listing": "/data-blog.html",
+    "items": [
+      "/posts/2025-08-14_advice-for-more-complex-posts/index.html",
+      "/posts/2025-08-12_interactive-charts/index.html",
+      "/posts/2025-08-08_hello-world-with-palmer-penguins/index.html"
+    ]
+  }
+]

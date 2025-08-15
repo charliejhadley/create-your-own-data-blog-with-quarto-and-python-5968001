@@ -1,0 +1,33 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/first-real-post/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/first-real-post/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/data-blog.html",
+    "items": [
+      "/posts/2025-08-14_advice-for-more-complex-posts/index.html",
+      "/posts/2025-08-12_interactive-charts/index.html",
+      "/posts/2025-08-08_hello-world-with-palmer-penguins/index.html"
+    ]
+  },
+  {
+    "listing": "/coffee-blog.html",
+    "items": [
+      "/coffee-reviews/dareshack/index.html",
+      "/coffee-reviews/cortado/index.html"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+---
+title: "Coffee Blog"
+listing:
+  id: coffee-reviews
+  contents: coffee-reviews
+  sort: "date desc"
+  type: grid
+  categories: false
+  feed: true
+---
+
+You might want your blog to have multiple listings.
+
+For instance most of your content is about Python and data so that's what most people will be interested in. But you might also be passionate about coffee, embroidery, 14th Century cuisine or something else.
+
+Or... thinking more practically you might have a listing for blogposts and another for your podcast episodes! Quarto has great flexibility for that - as you can see here.
+
+::: {#blog}
+:::
