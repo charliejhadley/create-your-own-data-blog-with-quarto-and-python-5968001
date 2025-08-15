@@ -1,9 +1,9 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "A Blog With Python Thanks to Quarto"
+  draft-mode: unlinked
   navbar:
     right:
       - about.qmd
@@ -11,6 +11,7 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+
 format:
   html:
     theme:

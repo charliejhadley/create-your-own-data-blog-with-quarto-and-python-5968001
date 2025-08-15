@@ -1,0 +1,8 @@
+---
+title: "Future ideas"
+date: "2025-08-14"
+author: "Charlotte Hadley"
+draft: true
+---
+
+I've got lots of ideas I want to work on, including why I love `plotnine`.

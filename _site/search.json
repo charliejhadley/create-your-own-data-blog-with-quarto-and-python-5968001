@@ -7,13 +7,6 @@
     "text": "A long-running piece of code\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2025-08-01_long-running-code/index.html",
-    "href": "posts/2025-08-01_long-running-code/index.html",
-    "title": "A long-running piece of code",
-    "section": "",
-    "text": "To create a post with a tuneable runtime I’m using time.sleep()\n\nfrom time import sleep\nsleep(5)\nprint(\"Hello sleepy world\")\n\nHello sleepy world\n\n\n\nfrom plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap\n(\n    ggplot(penguins_cleaned, aes(\"bill_length_mm\",\n           \"flipper_length_mm\", color=\"factor(island)\"))\n    + geom_point()\n)"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -21,11 +14,11 @@
     "text": "About this blog"
   },
   {
-    "objectID": "podcast.html",
-    "href": "podcast.html",
-    "title": "Podcast",
+    "objectID": "posts/2025-08-01_long-running-code/index.html",
+    "href": "posts/2025-08-01_long-running-code/index.html",
+    "title": "A long-running piece of code",
     "section": "",
-    "text": "Another podcast?! Maybe…"
+    "text": "To create a post with a tuneable runtime I’m using time.sleep()\n\nfrom time import sleep\nsleep(5)\nprint(\"Hello sleepy world\")\n\nHello sleepy world\n\n\n\nfrom plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap\n(\n    ggplot(penguins_cleaned, aes(\"bill_length_mm\",\n           \"flipper_length_mm\", color=\"factor(island)\"))\n    + geom_point()\n)"
   },
   {
     "objectID": "CONTRIBUTING.html",

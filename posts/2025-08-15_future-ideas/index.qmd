@@ -1,8 +1,0 @@
----
-title: "Future ideas"
-date: "2025-08-15"
-author: "Charlotte Hadley"
-draft: true
----
-
-I haven't fully decided what to put here...
