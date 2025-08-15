@@ -1,0 +1,32 @@
+---
+title: "A long-running piece of code"
+date: "2025-08-01"
+author: "Charlotte Hadley"
+---
+
+To create a post with a tuneable runtime I'm using `time.sleep()`
+
+```{python}
+from time import sleep
+sleep(5)
+print("Hello sleepy world")
+```
+
+```{python}
+# | echo: false
+from palmerpenguins import load_penguins
+import pandas as pd
+import numpy as np
+
+penguins = load_penguins()
+penguins_cleaned = penguins.dropna()
+```
+
+```{python}
+from plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap
+(
+    ggplot(penguins_cleaned, aes("bill_length_mm",
+           "flipper_length_mm", color="factor(island)"))
+    + geom_point()
+)
+```

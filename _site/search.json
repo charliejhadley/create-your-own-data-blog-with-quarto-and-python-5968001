@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Contribution Agreement",
+    "section": "",
+    "text": "Contribution Agreement\nThis repository does not accept pull requests (PRs). All pull requests will be closed.\nHowever, if any contributions (through pull requests, issues, feedback or otherwise) are provided, as a contributor, you represent that the code you submit is your original work or that of your employer (in which case you represent you have the right to bind your employer). By submitting code (or otherwise providing feedback), you (and, if applicable, your employer) are licensing the submitted code (and/or feedback) to LinkedIn and the open source community subject to the BSD 2-Clause license."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A Blog With Python Thanks to Quarto",
+    "section": "",
+    "text": "Future ideas\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nA long-running piece of code\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/2025-08-01_long-running-code/index.html",
+    "href": "posts/2025-08-01_long-running-code/index.html",
+    "title": "A long-running piece of code",
+    "section": "",
+    "text": "To create a post with a tuneable runtime I’m using time.sleep()\n\nfrom time import sleep\nsleep(5)\nprint(\"Hello sleepy world\")\n\nHello sleepy world\n\n\n\nfrom plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap\n(\n    ggplot(penguins_cleaned, aes(\"bill_length_mm\",\n           \"flipper_length_mm\", color=\"factor(island)\"))\n    + geom_point()\n)"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "hash": "fbee549237c8d2698cabfd2a4816238a",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"A long-running piece of code\"\ndate: \"2025-08-01\"\nauthor: \"Charlotte Hadley\"\n---\n\nTo create a post with a tuneable runtime I'm using `time.sleep()`\n\n::: {#052bdea0 .cell execution_count=1}\n``` {.python .cell-code}\nfrom time import sleep\nsleep(5)\nprint(\"Hello sleepy world\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nHello sleepy world\n```\n:::\n:::\n\n\n\n\n::: {#0a6b8bb8 .cell execution_count=3}\n``` {.python .cell-code}\nfrom plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap\n(\n    ggplot(penguins_cleaned, aes(\"bill_length_mm\",\n           \"flipper_length_mm\", color=\"factor(island)\"))\n    + geom_point()\n)\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-4-output-1.png){width=640 height=480}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
