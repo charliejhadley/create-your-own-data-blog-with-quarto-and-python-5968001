@@ -1,5 +1,0 @@
----
-title: "A Blog With Python Thanks to Quarto"
----
-
-This is an example python-powered data blog built with Quarto as part of Charlotte Hadley's LinkedIn Learning course.
