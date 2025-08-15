@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "A Blog With Python Thanks to Quarto"
+  navbar:
+    left:
+      - text: "Data blog"
+        icon: pie-chart-fill
+        href: data-blog.qmd
+    right:
+      - text: "Coffee blog"
+        icon: cup-hot-fill
+        href: coffee-blog.qmd
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+
+
