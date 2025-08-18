@@ -1,0 +1,26 @@
+---
+title: "Charlotte's side projects"
+bread-crumbs: true
+---
+
+I have a few side projects I'm working on, some are in data but I'm also working on expanding my creativity.
+
+::: {.aside}
+A data blog with side projects? Surely a podcast is next?
+:::
+
+## Data projects
+
+### Shiny fishing game
+
+A project to explore game design.
+
+### Tidy tuesday dataset explorer
+
+Which datasets have 5 categorical variables?
+
+## Creative projects
+
+### Baking
+
+Surely I can make better scones?

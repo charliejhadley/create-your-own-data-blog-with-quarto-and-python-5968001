@@ -1,0 +1,10 @@
+---
+title: "Shiny Fishing Game"
+author: "Charlotte Hadley"
+---
+
+Shiny is an incredibly framework for [building interactive dashboards, web apps and more **directly** from Python](https://shiny.posit.co/py/gallery/).
+
+Fishing minigames in Stardew Valley and similar games are really interesting to me. I have a side project exploring how different mathematical functions are used to create "bouncy" or "squelchy" bumps in the animations. There's not much to share yet...
+
+<img src='fishing-mini-game.gif' width="300px"/>

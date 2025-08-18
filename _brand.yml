@@ -1,0 +1,4 @@
+defaults:
+  bootstrap:
+    defaults:
+      footer-bg: "whitesmoke"
