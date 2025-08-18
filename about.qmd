@@ -1,0 +1,28 @@
+---
+title: "About"
+image: profile.jpg
+---
+
+Quarto is an incredible tool for communicating with data via Python. Using Quarto you can build reports, slide decks, and blogs (just like this one!).
+
+
+:::: {.column-page}
+
+::: {.grid style="text-align:center"}
+
+::: {.g-col-4 .card .mb-3 .justify-content-center}
+<img src='images/icon-python.png' height="100px"/>
+:::
+
+::: {.g-col-4 .card .mb-3 .justify-content-center}
+<img src='images/icon-jupyter.png' width="100px"/>
+:::
+
+::: {.g-col-4 .card .mb-3 .justify-content-center}
+<img src='images/icon-quarto.png' width="100px"/>
+:::
+
+:::
+
+::::
+

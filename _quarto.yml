@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "A Blog With Python Thanks to Quarto"
+  navbar:
+    left:
+      - text: "Data blog"
+        icon: pie-chart-fill
+        href: data-blog.qmd
+    right:
+      - text: "Coffee blog"
+        icon: cup-hot-fill
+        href: coffee-blog.qmd
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+  page-footer:
+    left: |
+      This blog was written by Charlotte Hadley
+      <br>I hope you enjoy it!
+    center:
+      - text: "This works in the same way as the navbar"
+        icon: info-circle-fill
+    right:
+      - icon: github
+        href: https://github.com/charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001
+        aria-label: GitHub Repo
+format:
+  html:
+    theme:
+      - brand
+      - cosmo
+    css: styles.css

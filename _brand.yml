@@ -1,0 +1,21 @@
+color:
+  palette:
+    neutral: "#F9F7F1" 
+    graph-primary: '#30CED1'
+    plot-primary: '#E0BE36'
+    chart-primary: '#FA8A5B'
+    story-primary: '#EB526F'
+    other-primary: '#D8F794'
+  background: neutral
+
+typography:
+  base: Karla
+  headings:
+    family: Futura
+    weight: 400
+    color: primary
+
+defaults:
+  bootstrap:
+    defaults:
+      footer-bg: "whitesmoke"
