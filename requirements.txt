@@ -8,3 +8,4 @@ jupyter-cache
 lorem_text
 itables
 tabulate
+ipyleaflet

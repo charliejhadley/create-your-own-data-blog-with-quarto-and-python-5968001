@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Contribution Agreement",
+    "section": "",
+    "text": "Contribution Agreement\nThis repository does not accept pull requests (PRs). All pull requests will be closed.\nHowever, if any contributions (through pull requests, issues, feedback or otherwise) are provided, as a contributor, you represent that the code you submit is your original work or that of your employer (in which case you represent you have the right to bind your employer). By submitting code (or otherwise providing feedback), you (and, if applicable, your employer) are licensing the submitted code (and/or feedback) to LinkedIn and the open source community subject to the BSD 2-Clause license."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A Blog With Python Thanks to Quarto",
+    "section": "",
+    "text": "Welcome to my data (and sometimes coffee) blog.\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items\n\n\n\n\n\nAbout me\nI’m a data storyteller…"
+  },
+  {
+    "objectID": "coffee-blog.html",
+    "href": "coffee-blog.html",
+    "title": "Coffee Blog",
+    "section": "",
+    "text": "You might want your blog to have multiple listings.\nFor instance most of your content is about Python and data so that’s what most people will be interested in. But you might also be passionate about coffee, embroidery, 14th Century cuisine or something else.\nOr… thinking more practically you might have a listing for blogposts and another for your podcast episodes! Quarto has great flexibility for that - as you can see here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDareshack: It’s not a dare, it’s just a great choice.\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCortado: When and why?\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "coffee-reviews/dareshack/index.html",
+    "href": "coffee-reviews/dareshack/index.html",
+    "title": "Dareshack: It’s not a dare, it’s just a great choice.",
+    "section": "",
+    "text": "Dareshack is probably my favourite place to get a coffee in Bristol."
+  },
+  {
+    "objectID": "posts/2025-08-12_interactive-charts/index.html",
+    "href": "posts/2025-08-12_interactive-charts/index.html",
+    "title": "Interactive charts",
+    "section": "",
+    "text": "Have you heard about Jupyter Widgets for embedding interactivite elements in Jupyter documents?\n\nWell! Because Quarto uses Jupyter for rendering Python content that means you can also use these widgets in your data blog!\nAs an example, here’s a map centered on the Royal Observatory Greenwich:\n\nfrom ipyleaflet import Map, Marker, basemaps, basemap_to_tiles\nm = Map(\n  basemap=basemap_to_tiles(\n    basemaps.NASAGIBS.ModisTerraTrueColorCR, \"2017-04-08\"\n  ),\n  center=(51.476852, -0.000500),\n  zoom=4\n)\nm.add_layer(Marker(location=(51.476852, -0.000500)))\nm"
+  },
+  {
+    "objectID": "posts/2025-08-08_hello-world-with-palmer-penguins/index.html",
+    "href": "posts/2025-08-08_hello-world-with-palmer-penguins/index.html",
+    "title": "Hello World with the Palmer Penguins",
+    "section": "",
+    "text": "The penguins dataset is always useful!!\n\nfrom palmerpenguins import load_penguins\nimport pandas as pd\nimport numpy as np\n\npenguins_df = load_penguins()\npenguins_cleaned_df = penguins_df.dropna()\n\nspecies_counts = penguins_cleaned_df['species'].value_counts()\n\n\nShowing Matplotlib Charts\nWe can display matplotlib charts directly:\n\nimport matplotlib.pyplot as plt\n\nplot = plt.figure()\nplot.set_figwidth(6)\nplot.set_figheight(3)\n\nplt.bar(species_counts.index, species_counts.values)"
+  },
+  {
+    "objectID": "posts/2025-08-14_advice-for-more-complex-posts/index.html",
+    "href": "posts/2025-08-14_advice-for-more-complex-posts/index.html",
+    "title": "Advice for more complex posts",
+    "section": "",
+    "text": "As your blogposts become more complex you might feel it’s overwhelming having all of your code in the index.qmd file\nGreat news! It’s easy to run a script file from a blogpost using a code chunk that looks like this:"
+  },
+  {
+    "objectID": "posts/2025-08-14_advice-for-more-complex-posts/index.html#analysis",
+    "href": "posts/2025-08-14_advice-for-more-complex-posts/index.html#analysis",
+    "title": "Advice for more complex posts",
+    "section": "Analysis",
+    "text": "Analysis\nThis script performs a K-Means clustering on the palmer penguins dataset.\nOut of 333 penguins, our model misclassified 5.0% of the penguins.\nThe model has these parameters:\n\nNumber of Clusters: 3\nMax Iterations: 300\n\nThis plotnine chart exposes where penguins were misclassified:"
+  },
+  {
+    "objectID": "coffee-reviews/cortado/index.html",
+    "href": "coffee-reviews/cortado/index.html",
+    "title": "Cortado: When and why?",
+    "section": "",
+    "text": "I really enjoy a cortado. But they’re very disappointing when made badly, so my rule is I only order them after an initial visit to a cafe or a very strong endorsement from a friend."
+  },
+  {
+    "objectID": "data-blog.html",
+    "href": "data-blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Quarto is an incredible tool for communicating with data via Python. Using Quarto you can build reports, slide decks, and blogs (just like this one!)."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  }
+]
