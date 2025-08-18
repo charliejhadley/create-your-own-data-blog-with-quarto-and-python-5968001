@@ -8,6 +8,8 @@ Bootstrap exposes [over 1400 SASS variables](https://github.com/twbs/bootstrap/b
 
 These can be used in .scss files where we can also apply nested rules.
 
+# Customising cards with nested rules
+
 ::: {.card}
 # Heading
 

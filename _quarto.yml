@@ -32,4 +32,5 @@ format:
     theme:
       - brand
       - cosmo
+      - custom.scss
     css: styles.css

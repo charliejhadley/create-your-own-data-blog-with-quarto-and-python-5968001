@@ -151,7 +151,7 @@
     "href": "posts/2025-08-20_scss/index.html",
     "title": "SCSS and SASS Variables",
     "section": "",
-    "text": "Bootstrap exposes over 1400 SASS variables.\nThese can be used in .scss files where we can also apply nested rules.\n\nHeading\nTake a look at the custom.scss file to understand how this is formatted."
+    "text": "Bootstrap exposes over 1400 SASS variables.\nThese can be used in .scss files where we can also apply nested rules.\n\nCustomising cards with nested rules\n\n\nHeading\nTake a look at the custom.scss file to understand how this is formatted."
   },
   {
     "objectID": "index.html#blog-listing",
