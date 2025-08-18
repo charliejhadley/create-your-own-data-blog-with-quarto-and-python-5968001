@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+$font-stack: Helvetica, sans-serif;
+$primary-color: green;
+$headings-color: red;
+
+/*-- scss:rules --*/
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 15px;
+  background-color: lightgrey;
+
+  >h1 {
+    font-weight: bold;
+    color: blue;
+  }
+
+  >p {
+    font-family: Georgia;
+    font-style: italic;
+  }
+
+}

@@ -1,0 +1,15 @@
+---
+title: "SCSS and SASS Variables"
+date: "2025-08-20"
+author: "Charlotte Hadley"
+---
+
+Bootstrap exposes [over 1400 SASS variables](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss).
+
+These can be used in .scss files where we can also apply nested rules.
+
+::: {.card}
+# Heading
+
+Take a look at the `custom.scss` file to understand how this is formatted.
+:::
