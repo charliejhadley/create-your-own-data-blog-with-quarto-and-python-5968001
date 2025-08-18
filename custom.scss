@@ -1,0 +1,12 @@
+/*-- scss:defaults --*/
+$h3-font-size: 3rem !default;
+
+/*-- scss:rules --*/
+h1,
+h2,
+h3,
+h4,
+.category {
+  color: $brand-graph-primary;
+  font-weight: bold;
+}
