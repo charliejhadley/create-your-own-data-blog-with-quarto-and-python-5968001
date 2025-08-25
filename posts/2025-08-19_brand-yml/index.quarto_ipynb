@@ -1,0 +1,51 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"_brand.yml for styling your blog\"\n",
+        "date: \"2025-08-19\"\n",
+        "author: \"Charlotte Hadley\"\n",
+        "---\n",
+        "\n",
+        "<span>You might want to use brand colours in HTML using [Shortcodes](https://quarto.org/docs/extensions/shortcodes.html)</span>...\n",
+        "\n",
+        "## Accessing _brand.yml in python code....\n",
+        "\n",
+        "Here's a plotnine chart that would look much nicer with our brand colours:"
+      ],
+      "id": "493db275"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import plotnine as pn\n",
+        "from palmerpenguins import load_penguins\n",
+        "\n",
+        "penguins_df = load_penguins()\n",
+        "\n",
+        "pn.ggplot(penguins_df, pn.aes(x='species')) + pn.geom_bar(fill=\"red\", color='black', size=0.5) + pn.labs(\n",
+        "        title='Number of Penguins per Species',\n",
+        "        x='Species',\n",
+        "        y='Count'\n",
+        "    )"
+      ],
+      "id": "a2bfb0d9",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/opt/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

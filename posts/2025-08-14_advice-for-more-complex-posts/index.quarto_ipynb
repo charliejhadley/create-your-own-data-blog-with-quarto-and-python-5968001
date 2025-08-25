@@ -1,0 +1,106 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Advice for more complex posts\"\n",
+        "author: \"Charlotte Hadley\"\n",
+        "date: \"2025-08-15\"\n",
+        "categories: [advice, code]\n",
+        "---\n",
+        "\n",
+        "As your blogposts become more complex you might feel it's overwhelming having all of your code in the index.qmd file\n",
+        "\n",
+        "Great news! It's easy to run a script file from a blogpost using a code chunk that looks like this:\n",
+        "\n",
+        "```{{python}}\n",
+        "# | include: false\n",
+        "%run penguins-clustering.py\n",
+        "```"
+      ],
+      "id": "e9a3dba7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# | include: false\n",
+        "%run penguins-clustering.py"
+      ],
+      "id": "b32dc0d6",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Analysis\n",
+        "\n",
+        "This script performs a K-Means clustering on the palmer penguins dataset.\n",
+        "\n",
+        "Out of `{python} penguins_confusion.sum().sum().item()` penguins, our model misclassified `{python} round(penguins_confusion_mismatch.sum().sum().item() / penguins_confusion.sum().sum().item(), 2) * 100`% of the penguins.\n",
+        "\n",
+        "The model has these parameters:\n",
+        "\n",
+        "- Number of Clusters: `{python} model_params[\"n_clusters\"]`\n",
+        "\n",
+        "- Max Iterations: `{python} model_params[\"max_iter\"]`\n",
+        "\n",
+        "This plotnine chart exposes where penguins were misclassified:"
+      ],
+      "id": "167ec848"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "message": false
+      },
+      "source": [
+        "#| echo: false\n",
+        "#| warning: false\n",
+        "import plotnine as pn\n",
+        "\n",
+        "\n",
+        "penguins_clust_long_df = pd.melt(penguins_data_df.loc[:, selected_features + [\"cluster\", \"species\"]],\n",
+        "                                 id_vars=[\"bill_length_mm\",\n",
+        "                                          \"flipper_length_mm\"],\n",
+        "                                 var_name=\"measure\",\n",
+        "                                 value_name=\"group\")\n",
+        "\n",
+        "\n",
+        "pn_scatter_clustering = (\n",
+        "    pn.ggplot(penguins_clust_long_df, pn.aes(\"bill_length_mm\",\n",
+        "                                             \"flipper_length_mm\", color=\"factor(group)\"))\n",
+        "    + pn.geom_point()\n",
+        "    + pn.facet_wrap(\"measure\")\n",
+        ")\n",
+        "pn_scatter_clustering.save('scatter-clustering.png',\n",
+        "                           width=6, height=4, dpi=300)"
+      ],
+      "id": "84779323",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](scatter-clustering.png){width=\"6in\" height=\"4in\"}"
+      ],
+      "id": "46d0d69e"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/opt/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

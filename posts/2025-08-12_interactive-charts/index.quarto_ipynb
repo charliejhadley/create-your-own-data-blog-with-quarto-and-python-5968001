@@ -1,0 +1,55 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Interactive charts\"\n",
+        "author: \"Charlotte Hadley\"\n",
+        "date: \"2025-08-12\"\n",
+        "image: post-preview.png\n",
+        "categories: [code, dataviz]\n",
+        "---\n",
+        "\n",
+        "Have you heard about [Jupyter Widgets](https://jupyter.org/widgets) for embedding interactivite elements in Jupyter documents?\n",
+        "\n",
+        "<img src='../../images/icon-jupyter.png' width=\"100px\"/>\n",
+        "\n",
+        "Well! Because Quarto uses Jupyter for rendering Python content that means you can also use these widgets in your data blog!\n",
+        "\n",
+        "As an example, here's a map centered on the Royal Observatory Greenwich:"
+      ],
+      "id": "685ba51d"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles\n",
+        "m = Map(\n",
+        "  basemap=basemap_to_tiles(\n",
+        "    basemaps.NASAGIBS.ModisTerraTrueColorCR, \"2017-04-08\"\n",
+        "  ),\n",
+        "  center=(51.476852, -0.000500),\n",
+        "  zoom=4\n",
+        ")\n",
+        "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
+        "m"
+      ],
+      "id": "e36682ca",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/opt/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

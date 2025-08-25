@@ -1,0 +1,72 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Hello World with the Palmer Penguins\"\n",
+        "date: \"2025-08-08\"\n",
+        "image: \"post-preview.png\"\n",
+        "categories: [code, dataviz]\n",
+        "---\n",
+        "\n",
+        "The penguins dataset is always useful!!"
+      ],
+      "id": "0c180c8f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from palmerpenguins import load_penguins\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "penguins_df = load_penguins()\n",
+        "penguins_cleaned_df = penguins_df.dropna()\n",
+        "\n",
+        "species_counts = penguins_cleaned_df['species'].value_counts()"
+      ],
+      "id": "a2e4edfa",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Showing Matplotlib Charts\n",
+        "\n",
+        "We can display matplotlib charts directly:"
+      ],
+      "id": "957850a2"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "plot = plt.figure()\n",
+        "plot.set_figwidth(6)\n",
+        "plot.set_figheight(3)\n",
+        "\n",
+        "plt.bar(species_counts.index, species_counts.values)"
+      ],
+      "id": "a72add7d",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/opt/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

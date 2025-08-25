@@ -30,6 +30,6 @@ website:
 format:
   html:
     theme:
-      light: [brand, cosmo, custom.scss]
-      dark: [brand, darkly, custom.scss]
+      light: [_brand-light.yml, cosmo, custom.scss]
+      dark: [_brand-dark.yml, cosmo, custom.scss]
     css: styles.css
