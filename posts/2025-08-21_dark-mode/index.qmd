@@ -1,0 +1,9 @@
+---
+title: "Dark mode"
+date: "2025-08-18"
+author: "Charlotte Hadley"
+---
+
+I customsied the size in the scss file using https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263
+
+And in the _quarto,.yml file I provided a collection of files.

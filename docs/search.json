@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "A Blog With Python Thanks to Quarto",
     "section": "",
-    "text": "Welcome to my data (and sometimes coffee) blog.\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my data (and sometimes coffee) blog.\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nDark mode\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "coffee-blog.html",
@@ -67,7 +67,7 @@
     "href": "data-blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nDark mode\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -144,7 +144,7 @@
     "href": "posts/2025-08-19_brand-yml/index.html#accessing-_brand.yml-in-python-code.",
     "title": "_brand.yml for styling your blog",
     "section": "Accessing _brand.yml in python code….",
-    "text": "Accessing _brand.yml in python code….\nHere’s a plotnine chart that would look much nicer with our brand colours:\n\nimport plotnine as pn\nfrom palmerpenguins import load_penguins\n\npenguins_df = load_penguins()\n\npn.ggplot(penguins_df, pn.aes(x='species')) + pn.geom_bar(fill=\"red\", color='black', size=0.5) + pn.labs(\n        title='Number of Penguins per Species',\n        x='Species',\n        y='Count'\n    )\n\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x1063de160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x1063de160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x1063de160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead."
+    "text": "Accessing _brand.yml in python code….\nHere’s a plotnine chart that would look much nicer with our brand colours:\n\nimport plotnine as pn\nfrom palmerpenguins import load_penguins\n\npenguins_df = load_penguins()\n\npn.ggplot(penguins_df, pn.aes(x='species')) + pn.geom_bar(fill=\"red\", color='black', size=0.5) + pn.labs(\n        title='Number of Penguins per Species',\n        x='Species',\n        y='Count'\n    )\n\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107672160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107672160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107672160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead."
   },
   {
     "objectID": "posts/2025-08-20_scss/index.html",
@@ -152,5 +152,12 @@
     "title": "SCSS and SASS Variables",
     "section": "",
     "text": "Bootstrap exposes over 1400 SASS variables.\nThese can be used in .scss files where we can also apply nested rules.\n\nCustomising cards with nested rules\n\n\nHeading\nTake a look at the custom.scss file to understand how this is formatted."
+  },
+  {
+    "objectID": "posts/2025-08-21_dark-mode/index.html",
+    "href": "posts/2025-08-21_dark-mode/index.html",
+    "title": "Dark mode",
+    "section": "",
+    "text": "I customsied the size in the scss file using https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263\nAnd in the _quarto,.yml file I provided a collection of files."
   }
 ]

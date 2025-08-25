@@ -30,6 +30,6 @@ website:
 format:
   html:
     theme:
-      - brand
-      - cosmo
+      light: [brand, cosmo, custom.scss]
+      dark: [brand, darkly, custom.scss]
     css: styles.css

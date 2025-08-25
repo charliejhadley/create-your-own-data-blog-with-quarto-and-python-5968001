@@ -7,6 +7,14 @@ h2,
 h3,
 h4,
 .category {
-  color: $brand-graph-primary;
+  // color: $brand-graph-primary;
   font-weight: bold;
+}
+
+
+.quarto-reader-toggle .bi::before,
+.quarto-color-scheme-toggle .bi::before {
+  height: 2rem !important;
+  width: 2rem !important;
+  background-size: 2rem 2rem !important;
 }
