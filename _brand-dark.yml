@@ -2,18 +2,14 @@ color:
   palette:
     neutral: "#F9F7F1" 
     brand-blue: "#3172AD"
-    graph-primary: "#30CED1"
-    plot-primary: "#E0BE36"
-    chart-primary: "#FA8A5B"
-    story-primary: "#EB526F"
-    other-primary: "#D8F794"
+    dark-mode-primary: "red"
   background: neutral
-  primary: brand-blue
+  primary: dark-mode-primary
 
 typography:
-  base: Karla
+  base: Comic Sans
   headings:
-    family: Futura
+    family: Comic Sans
     weight: 400
     color: primary
 

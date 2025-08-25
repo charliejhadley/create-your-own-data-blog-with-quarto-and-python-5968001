@@ -1,0 +1,106 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Dark mode switch\"\n",
+        "date: \"2025-08-25\"\n",
+        "author: \"Charlotte Hadley\"\n",
+        "keep-md: true\n",
+        "\n",
+        "---\n",
+        "\n",
+        "Dark mode is enabled by providing dark and light to theme in the `_quarto.yml` file.\n",
+        "\n",
+        "The default toggle is very small, it's been customised from [following advice on GitHub](https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263)............\n",
+        "\n",
+        "### No crossref or caption"
+      ],
+      "id": "c6b1a993"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "renderings": [
+          "light",
+          "dark"
+        ]
+      },
+      "source": [
+        "#| echo: false\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "# Parameters for the normal distribution\n",
+        "mean = 0\n",
+        "std_dev = 1\n",
+        "x = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)\n",
+        "y_light = (1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)\n",
+        "y_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)\n",
+        "\n",
+        "# Plotting\n",
+        "plt.figure(figsize=(8, 5))\n",
+        "plt.plot(x, y_light, label='LIGHT MODE')\n",
+        "plt.title('LIGHT MODE')\n",
+        "plt.show()\n",
+        "\n",
+        "plt.figure(figsize=(8, 5))\n",
+        "plt.plot(x, y_dark, label='DARK MODE')\n",
+        "plt.title('DARK MODE')\n",
+        "plt.show()"
+      ],
+      "id": "e7604f8a",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Accessing colours from brand palette"
+      ],
+      "id": "2996ef1d"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "renderings": [
+          "light",
+          "dark"
+        ]
+      },
+      "source": [
+        "#| echo: false\n",
+        "from brand_yml import Brand\n",
+        "brand_light = Brand.from_yaml(\"../../_brand-light.yml\")\n",
+        "brand_dark = Brand.from_yaml(\"../../_brand-dark.yml\")\n",
+        "brand_light.color.palette['light-mode-primary']\n",
+        "\n",
+        "plt.figure(figsize=(8, 5))\n",
+        "plt.plot(x, y_light, label='LIGHT MODE', color=brand_light.color.palette['light-mode-primary'])\n",
+        "plt.title('LIGHT MODE')\n",
+        "plt.show()\n",
+        "\n",
+        "plt.figure(figsize=(8, 5))\n",
+        "plt.plot(x, y_dark, label='DARK MODE', color=brand_dark.color.palette['dark-mode-primary'])\n",
+        "plt.title('DARK MODE')\n",
+        "plt.show()"
+      ],
+      "id": "7cbfd744",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/opt/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

@@ -10,3 +10,4 @@ itables
 tabulate
 ipyleaflet
 brand_yml
+quarto

@@ -1,0 +1,57 @@
+---
+title: "RENDERINGS PLEASE"
+author: "Charlotte Hadley"
+date: "2025-08-25"
+keep-md: true
+format:
+  html:
+    code-tools:
+      source: https://github.com/quarto-dev/quarto-examples/blob/main/renderings/matplotlib.qmd
+---
+
+### No crossref or caption
+```{python}
+#| echo: false
+#| renderings: [light, dark]
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Parameters for the normal distribution
+mean = 0
+std_dev = 1
+x = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)
+y_light = (1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)
+y_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)
+
+# Plotting
+plt.figure(figsize=(8, 5))
+plt.plot(x, y_light, label='LIGHT MODE')
+plt.title('LIGHT MODE')
+plt.show()
+
+plt.figure(figsize=(8, 5))
+plt.plot(x, y_dark, label='DARK MODE')
+plt.title('DARK MODE')
+plt.show()
+```
+
+# Accessing colours from brand palette
+
+```{python}
+#| echo: false
+#| renderings: [light, dark]
+from brand_yml import Brand
+brand_light = Brand.from_yaml("../../_brand-light.yml")
+brand_dark = Brand.from_yaml("../../_brand-dark.yml")
+brand_light.color.palette['light-mode-primary']
+
+plt.figure(figsize=(8, 5))
+plt.plot(x, y_light, label='LIGHT MODE', color=brand_light.color.palette['light-mode-primary'])
+plt.title('LIGHT MODE')
+plt.show()
+
+plt.figure(figsize=(8, 5))
+plt.plot(x, y_dark, label='DARK MODE', color=brand_dark.color.palette['dark-mode-primary'])
+plt.title('DARK MODE')
+plt.show()
+```

@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Charlotte Hadley">
-<meta name="dcterms.date" content="2025-08-18">
+<meta name="dcterms.date" content="2025-08-25">
 
-<title>Dark mode – A Blog With Python Thanks to Quarto</title>
+<title>Dark mode switch – A Blog With Python Thanks to Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -43,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-39dafe79f70a2e28838dff4d33cfcc26.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-ad0d952922a5e2479d729d1e8cb158f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-39dafe79f70a2e28838dff4d33cfcc26.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-3dda0592e7670d2fc2582ea7291da6a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-3bdcd58c05bffbc48ea9713ee366fec5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-3dda0592e7670d2fc2582ea7291da6a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -290,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Dark mode</h1>
+      <h1 class="title">Dark mode switch</h1>
                       </div>
   </div>
     
@@ -307,7 +307,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 18, 2025</p>
+        <p class="date">August 25, 2025</p>
       </div>
     </div>
     
@@ -327,10 +327,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>I customsied the size in the scss file using https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263</p>
-<p>And in the _quarto,.yml file I provided a collection of files.</p>
+<p>Dark mode is enabled by providing dark and light to theme in the <code>_quarto.yml</code> file.</p>
+<p>The default toggle is very small, it’s been customised from <a href="https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263">following advice on GitHub</a>…………</p>
+<section id="no-crossref-or-caption" class="level3">
+<h3 class="anchored" data-anchor-id="no-crossref-or-caption">No crossref or caption</h3>
+<div id="5419212e" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="1">
+<div class="light-content">
+<p><img src="index_files/figure-html/cell-2-output-1.png" width="653" height="431"></p>
+</div>
+<div class="dark-content">
+<p><img src="index_files/figure-html/cell-2-output-2.png" width="665" height="431"></p>
+</div>
+</div>
+</section>
+<section id="accessing-colours-from-brand-palette" class="level1">
+<h1>Accessing colours from brand palette</h1>
+<div id="47c9a229" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="2">
+<div class="light-content">
+<p><img src="index_files/figure-html/cell-3-output-1.png" width="653" height="431"></p>
+</div>
+<div class="dark-content">
+<p><img src="index_files/figure-html/cell-3-output-2.png" width="665" height="431"></p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

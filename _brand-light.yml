@@ -2,22 +2,18 @@ color:
   palette:
     neutral: "#F9F7F1" 
     brand-blue: "#3172AD"
-    graph-primary: "#30CED1"
-    plot-primary: "#E0BE36"
-    chart-primary: "#FA8A5B"
-    story-primary: "#EB526F"
-    other-primary: "#D8F794"
+    light-mode-primary: "#8BA054"
   background: neutral
-  primary: brand-blue
+  primary: light-mode-primary
 
 typography:
   base: Karla
   headings:
     family: Futura
     weight: 400
-    color: primary
+    color: red
 
 defaults:
   bootstrap:
     defaults:
-      footer-bg: "whitesmoke"
+      footer-bg: "red"

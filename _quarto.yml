@@ -27,9 +27,13 @@ website:
       - icon: github
         href: https://github.com/charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001
         aria-label: GitHub Repo
+        
 format:
   html:
     theme:
-      light: [_brand-light.yml, cosmo, custom.scss]
-      dark: [_brand-dark.yml, cosmo, custom.scss]
+      light: [cosmo, custom.scss]
+      dark: [flatly, custom.scss]
+    brand:
+      light: _brand-light.yml
+      dark: _brand-dark.yml
     css: styles.css

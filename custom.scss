@@ -1,20 +1,13 @@
 /*-- scss:defaults --*/
-$h3-font-size: 3rem !default;
 
 /*-- scss:rules --*/
-h1,
-h2,
-h3,
-h4,
-.category {
-  // color: $brand-story-primary;
-  font-weight: bold;
-}
-
-
 .quarto-reader-toggle .bi::before,
 .quarto-color-scheme-toggle .bi::before {
   height: 2rem !important;
   width: 2rem !important;
   background-size: 2rem 2rem !important;
+}
+
+body {
+  color: $primary;
 }

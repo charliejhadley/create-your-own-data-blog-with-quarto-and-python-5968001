@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "A Blog With Python Thanks to Quarto",
     "section": "",
-    "text": "Welcome to my data (and sometimes coffee) blog.\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nDark mode\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my data (and sometimes coffee) blog.\n\n\n\n\n\n\n\n\n\n\nDark mode switch\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nRENDERINGS PLEASE\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "coffee-blog.html",
@@ -67,7 +67,7 @@
     "href": "data-blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nDark mode\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nDark mode switch\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nRENDERINGS PLEASE\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -156,8 +156,50 @@
   {
     "objectID": "posts/2025-08-21_dark-mode/index.html",
     "href": "posts/2025-08-21_dark-mode/index.html",
-    "title": "Dark mode",
+    "title": "Dark mode switch",
     "section": "",
-    "text": "I customsied the size in the scss file using https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263\nAnd in the _quarto,.yml file I provided a collection of files."
+    "text": "Dark mode is enabled by providing dark and light to theme in the _quarto.yml file.\nThe default toggle is very small, it’s been customised from following advice on GitHub…………\n\nNo crossref or caption\n\n\n\n\n\n\n\n\n\n\nAccessing colours from brand palette"
+  },
+  {
+    "objectID": "posts/2025-08-21_dark-mode/index.html#customising-outpuit",
+    "href": "posts/2025-08-21_dark-mode/index.html#customising-outpuit",
+    "title": "Dark mode",
+    "section": "Customising outpuit",
+    "text": "Customising outpuit\nI customsied the size in the scss file using https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263\nAnd in the _quarto,.yml file I provided a collection of files."
+  },
+  {
+    "objectID": "posts/2025-08-21_dark-mode/index.html#customising-output",
+    "href": "posts/2025-08-21_dark-mode/index.html#customising-output",
+    "title": "Dark mode",
+    "section": "Customising output",
+    "text": "Customising output"
+  },
+  {
+    "objectID": "posts/2025-08-25_renderings/index.html",
+    "href": "posts/2025-08-25_renderings/index.html",
+    "title": "RENDERINGS PLEASE",
+    "section": "",
+    "text": "No crossref or caption\n\n\n\n\n\n\n\n\n\n\nAccessing colours from brand palette"
+  },
+  {
+    "objectID": "posts/2025-08-25_renderings/index.html#plotnine",
+    "href": "posts/2025-08-25_renderings/index.html#plotnine",
+    "title": "RENDERINGS PLEASE",
+    "section": "plotnine",
+    "text": "plotnine"
+  },
+  {
+    "objectID": "posts/2025-08-25_renderings/index.html#make-sense",
+    "href": "posts/2025-08-25_renderings/index.html#make-sense",
+    "title": "RENDERINGS PLEASE",
+    "section": "Make Sense",
+    "text": "Make Sense"
+  },
+  {
+    "objectID": "posts/2025-08-21_dark-mode/index.html#accessing-colours-from-brand-palette",
+    "href": "posts/2025-08-21_dark-mode/index.html#accessing-colours-from-brand-palette",
+    "title": "Dark mode",
+    "section": "Accessing colours from brand palette",
+    "text": "Accessing colours from brand palette"
   }
 ]
