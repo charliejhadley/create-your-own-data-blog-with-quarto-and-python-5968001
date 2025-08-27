@@ -4,10 +4,10 @@ author: "Charlotte Hadley"
 date: "2025-08-28"
 image: "listing-image.png"
 open-graph:
-    description: "Custom social card description"
-    image: "listing-image.png"
+    description: "It's slightly more picky than you'd like..."
+    image: "social-image.png"
     image-alt: Thumbnail
-    title: "Custom social card title!"
+    title: "Customise the social cards for Quarto!"
 ---
 
 Does this work???

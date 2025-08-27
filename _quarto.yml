@@ -7,6 +7,7 @@ website:
   twitter-card: true
   open-graph:
     site-name: "Charlotte's Data Blog"
+    description: "This is an example Quarto data blog built for Charlotte Hadley's course on LinkedIn Learning"
   navbar:
     left:
       - text: "Data blog"
