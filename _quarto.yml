@@ -5,7 +5,8 @@ project:
 website:
   title: "A Blog With Python Thanks to Quarto"
   open-graph:
-    site-name: "Charlotte's data blog"
+    title: "Charlotte's data blog"
+    image: images/icon-quarto.png
   navbar:
     left:
       - text: "Data blog"
