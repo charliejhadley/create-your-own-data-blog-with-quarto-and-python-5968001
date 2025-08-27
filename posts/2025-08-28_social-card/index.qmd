@@ -5,8 +5,6 @@ date: "2025-08-28"
 image: "listing-image.png"
 open-graph:
     description: "It's slightly more picky than you'd like..."
-    image: "social-image.png"
-    image-alt: Thumbnail
     title: "Customise the social cards for Quarto!"
 ---
 
