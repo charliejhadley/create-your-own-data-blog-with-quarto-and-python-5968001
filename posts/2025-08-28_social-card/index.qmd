@@ -3,6 +3,16 @@ title: "Social cards and open graph"
 author: "Charlotte Hadley"
 date: "2025-08-28"
 image: "listing-image.png"
+twitter-card:
+    description: "Page specific twitter description"
+    image: "../../images/icon-css.png"
+    image-alt: Thumbnail
+    title: "Page specific twitter title"
+open-graph:
+    description: "Page specific open graph description"
+    image: "../../images/icon-js.png"
+    image-alt: Thumbnail
+    title: "Page specific open graph title"
 ---
 
 Does this work?

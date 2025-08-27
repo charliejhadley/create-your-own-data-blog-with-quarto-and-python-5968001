@@ -4,9 +4,16 @@ project:
 
 website:
   title: "A Blog With Python Thanks to Quarto"
+  twitter-card:
+    description: "Twitter description"
+    image: "images/icon-css.png"
+    image-alt: Thumbnail
+    title: "Twitter title"
   open-graph:
-    title: "Charlotte's data blog"
-    image: images/icon-quarto.png
+    description: "Open graph description"
+    image: "images/icon-js.png"
+    image-alt: Thumbnail
+    title: "open graph title"
   navbar:
     left:
       - text: "Data blog"
