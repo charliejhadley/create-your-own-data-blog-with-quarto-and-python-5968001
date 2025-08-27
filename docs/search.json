@@ -158,7 +158,7 @@
     "href": "posts/2025-08-21_dark-mode/index.html",
     "title": "Dark mode switch",
     "section": "",
-    "text": "Dark mode is enabled by providing dark and light to theme in the _quarto.yml file.\nThe default toggle is very small, it’s been customised from following advice on GitHub…………\n\nNo crossref or caption\n\n\n\n\n\n\n\n\n\n\nAccessing colours from brand palette"
+    "text": "Dark mode is enabled by providing dark and light to theme in the _quarto.yml file.\nThe default toggle is very small, it’s been customised from following advice on GitHub…..\n\nDARK TEST SHOULD BE ORANGE\n\n\nLIGHT TEST SHOULD BE YELLOW\n\n\nNo crossref or caption\n\n\n\n\n\n\n\n\n\n\nAccessing colours from brand palette"
   },
   {
     "objectID": "posts/2025-08-21_dark-mode/index.html#customising-outpuit",

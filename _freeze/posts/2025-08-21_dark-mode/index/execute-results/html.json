@@ -1,10 +1,10 @@
 {
-  "hash": "3929f84ddac70511e9e7107fce8a2b76",
+  "hash": "280e3f00164d68445964dfb1a52f6066",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Dark mode switch\"\ndate: \"2025-08-25\"\nauthor: \"Charlotte Hadley\"\nkeep-md: true\n\n---\n\nDark mode is enabled by providing dark and light to theme in the `_quarto.yml` file.\n\nThe default toggle is very small, it's been customised from [following advice on GitHub](https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263)............\n\n### No crossref or caption\n\n::: {#5419212e .cell renderings='[\"light\",\"dark\"]' execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-2.png){width=665 height=431}\n:::\n:::\n\n\n# Accessing colours from brand palette\n\n::: {#47c9a229 .cell renderings='[\"light\",\"dark\"]' execution_count=2}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-2.png){width=665 height=431}\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: \"Dark mode switch\"\ndate: \"2025-08-25\"\nauthor: \"Charlotte Hadley\"\nkeep-md: true\n\n---\n\nDark mode is enabled by providing dark and light to theme in the `_quarto.yml` file.\n\nThe default toggle is very small, it's been customised from [following advice on GitHub](https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263).....\n\n::: {.dark-test}\nDARK TEST SHOULD BE ORANGE\n:::\n\n::: {.light-test}\nLIGHT TEST SHOULD BE YELLOW\n:::\n\n### No crossref or caption\n\n::: {#9278caaa .cell renderings='[\"light\",\"dark\"]' execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-2.png){width=665 height=431}\n:::\n:::\n\n\n# Accessing colours from brand palette\n\n::: {#147ec406 .cell renderings='[\"light\",\"dark\"]' execution_count=2}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-2.png){width=665 height=431}\n:::\n:::\n\n\n",
     "supporting": [
-      "index_files"
+      "index_files/figure-html"
     ],
     "filters": [],
     "includes": {}

@@ -2,7 +2,8 @@ color:
   palette:
     neutral: "#F9F7F1" 
     brand-blue: "#3172AD"
-    light-mode-primary: "#8BA054"
+    light-mode-primary: "blue"
+    please-light: "yellow"
   background: neutral
   primary: light-mode-primary
 
