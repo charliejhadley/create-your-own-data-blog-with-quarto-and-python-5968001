@@ -1,0 +1,24 @@
+---
+title: "_brand.yml for styling your blog"
+date: "2025-08-19"
+author: "Charlotte Hadley"
+---
+
+<span>You might want to use brand colours in HTML using [Shortcodes](https://quarto.org/docs/extensions/shortcodes.html)</span>...
+
+## Accessing _brand.yml in python code....
+
+Here's a plotnine chart that would look much nicer with our brand colours:
+
+```{python}
+import plotnine as pn
+from palmerpenguins import load_penguins
+
+penguins_df = load_penguins()
+
+pn.ggplot(penguins_df, pn.aes(x='species')) + pn.geom_bar(fill="red", color='black', size=0.5) + pn.labs(
+        title='Number of Penguins per Species',
+        x='Species',
+        y='Count'
+    )
+```
