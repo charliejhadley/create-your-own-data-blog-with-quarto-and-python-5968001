@@ -20,7 +20,7 @@
         "%run penguins-clustering.py\n",
         "```"
       ],
-      "id": "bb2a1f42"
+      "id": "c5401136"
     },
     {
       "cell_type": "code",
@@ -29,7 +29,7 @@
         "# | include: false\n",
         "%run penguins-clustering.py"
       ],
-      "id": "5d3bd3bc",
+      "id": "a0fe06a1",
       "execution_count": null,
       "outputs": []
     },
@@ -51,7 +51,7 @@
         "\n",
         "This plotnine chart exposes where penguins were misclassified:"
       ],
-      "id": "90c76d32"
+      "id": "2fd8a7c6"
     },
     {
       "cell_type": "code",
@@ -80,7 +80,7 @@
         "pn_scatter_clustering.save('scatter-clustering.png',\n",
         "                           width=6, height=4, dpi=300)"
       ],
-      "id": "da07e075",
+      "id": "474311df",
       "execution_count": null,
       "outputs": []
     },
@@ -90,7 +90,7 @@
       "source": [
         "![](scatter-clustering.png){width=\"6in\" height=\"4in\"}"
       ],
-      "id": "f93ed9be"
+      "id": "c49be7a2"
     }
   ],
   "metadata": {

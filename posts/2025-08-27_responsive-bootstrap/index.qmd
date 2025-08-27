@@ -2,7 +2,6 @@
 title: "Responsiveness and mobile devices"
 author: "Charlotte Hadley"
 date: "2025-08-27"
-image: "images/logo_gpcds_colour.png"
 ---
 
 [Bootstrap's grid layout system](https://quarto.org/docs/output-formats/page-layout.html#css-grid) provides true flexibility. It can get quite complicated.

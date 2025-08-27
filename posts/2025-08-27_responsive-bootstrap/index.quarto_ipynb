@@ -8,7 +8,6 @@
         "title: \"Responsiveness and mobile devices\"\n",
         "author: \"Charlotte Hadley\"\n",
         "date: \"2025-08-27\"\n",
-        "image: \"images/logo_gpcds_colour.png\"\n",
         "---\n",
         "\n",
         "[Bootstrap's grid layout system](https://quarto.org/docs/output-formats/page-layout.html#css-grid) provides true flexibility. It can get quite complicated.\n",
@@ -17,7 +16,7 @@
         "\n",
         "::: {.g-col-6 .g-col-md-4}"
       ],
-      "id": "d9e891be"
+      "id": "1a5e77b7"
     },
     {
       "cell_type": "code",
@@ -35,7 +34,7 @@
         "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
         "m"
       ],
-      "id": "a9f04b19",
+      "id": "75086c50",
       "execution_count": null,
       "outputs": []
     },
@@ -47,7 +46,7 @@
         "\n",
         "::: {.g-col-6 .g-col-md-4}"
       ],
-      "id": "a487defe"
+      "id": "d77d3bd2"
     },
     {
       "cell_type": "code",
@@ -65,7 +64,7 @@
         "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
         "m"
       ],
-      "id": "3e50f9f4",
+      "id": "f6465c0b",
       "execution_count": null,
       "outputs": []
     },
@@ -77,7 +76,7 @@
         "\n",
         "::: {.g-col-6 .g-col-md-4}"
       ],
-      "id": "78b93839"
+      "id": "cd1a90bd"
     },
     {
       "cell_type": "code",
@@ -95,7 +94,7 @@
         "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
         "m"
       ],
-      "id": "0f31b501",
+      "id": "d8fb0b34",
       "execution_count": null,
       "outputs": []
     },
@@ -121,7 +120,7 @@
         "![](../../images/tech-stack.png)\n",
         ":::"
       ],
-      "id": "ebba6d91"
+      "id": "837436f0"
     }
   ],
   "metadata": {

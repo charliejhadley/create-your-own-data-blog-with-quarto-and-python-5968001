@@ -13,7 +13,7 @@
         "\n",
         "The penguins dataset is always useful!!"
       ],
-      "id": "c857fcb1"
+      "id": "c0b4bf2c"
     },
     {
       "cell_type": "code",
@@ -28,7 +28,7 @@
         "\n",
         "species_counts = penguins_cleaned_df['species'].value_counts()"
       ],
-      "id": "d6a6e671",
+      "id": "4a797b34",
       "execution_count": null,
       "outputs": []
     },
@@ -40,7 +40,7 @@
         "\n",
         "We can display matplotlib charts directly:"
       ],
-      "id": "9dd4adad"
+      "id": "2db83bd3"
     },
     {
       "cell_type": "code",
@@ -54,7 +54,7 @@
         "\n",
         "plt.bar(species_counts.index, species_counts.values)"
       ],
-      "id": "a363fc3c",
+      "id": "b47258e2",
       "execution_count": null,
       "outputs": []
     }
