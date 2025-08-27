@@ -10,7 +10,7 @@ twitter-card:
     title: "Page specific twitter title"
 open-graph:
     description: "Page specific open graph description"
-    image: "../../images/icon-js.png"
+    image: "listing-image.png"
     image-alt: Thumbnail
     title: "Page specific open graph title"
 ---
