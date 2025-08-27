@@ -20,7 +20,7 @@
         "\n",
         "As an example, here's a map centered on the Royal Observatory Greenwich:"
       ],
-      "id": "3a420413"
+      "id": "f0537158"
     },
     {
       "cell_type": "code",
@@ -37,7 +37,7 @@
         "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
         "m"
       ],
-      "id": "9f4a6f92",
+      "id": "ab993fc3",
       "execution_count": null,
       "outputs": []
     }
