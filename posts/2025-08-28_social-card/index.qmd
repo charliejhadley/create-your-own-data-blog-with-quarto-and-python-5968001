@@ -3,9 +3,12 @@ title: "Social cards and open graph"
 author: "Charlotte Hadley"
 date: "2025-08-28"
 image: "listing-image.png"
+twitter-card:
+    description: "X requires different information"
+    title: "Customise the social cards for Quarto!"
 open-graph:
     description: "It's slightly more picky than you'd like..."
     title: "Customise the social cards for Quarto!"
 ---
 
-Does this work???
+The Open Graph framework is supported by most social media platforms. It's a little inflexible - the image shown in your posts needs to be the same as the image in your blog listing.
