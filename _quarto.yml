@@ -5,7 +5,8 @@ project:
 website:
   title: "A Blog With Python Thanks to Quarto"
   twitter-card: true
-  open-graph: true
+  open-graph:
+    site-name: "Charlotte's Data Blog"
   navbar:
     left:
       - text: "Data blog"
