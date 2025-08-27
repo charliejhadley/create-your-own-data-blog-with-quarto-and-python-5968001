@@ -3,8 +3,6 @@ title: "Social cards and open graph"
 author: "Charlotte Hadley"
 date: "2025-08-28"
 image: "listing-image.png"
-open-graph:
-  image: "social-image.png"
 ---
 
 Does this work?
