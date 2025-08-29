@@ -10,7 +10,7 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
-image: "images/logo_gpcds_colour.png"
+image: "root_logo_gpcds_colour.png"
 ---
 
 Welcome to my data (and sometimes coffee) blog.
