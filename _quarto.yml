@@ -5,13 +5,12 @@ project:
 website:
   title: "A Blog With Python Thanks to Quarto"
   twitter-card:
-    image: "https://raw.githubusercontent.com/charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001/refs/heads/06_02b/images/logo_gpcds_colour.png"
     title: "Charlotte's Data Blog"
-    description: "This is an example Quarto data blog built for Charlotte Hadley's course on LinkedIn Learning"
+    description: "Python blogging with Quarto for LinkedIn Learning"
   open-graph:
     image: "https://raw.githubusercontent.com/charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001/refs/heads/06_02b/images/logo_gpcds_colour.png"
     title: "Charlotte's Data Blog"
-    description: "This is an example Quarto data blog built for Charlotte Hadley's course on LinkedIn Learning"
+    description: "Using Quarto to blog with Python via LinkedIn Learning"
   navbar:
     left:
       - text: "Data blog"
