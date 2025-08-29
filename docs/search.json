@@ -123,7 +123,7 @@
     "href": "posts/2025-08-29_add-commenting/index.html",
     "title": "Add commenting to your blog",
     "section": "",
-    "text": "Out of the 3 options for adding comments to your Python Data Blog with Quarto, giscus is my favourite."
+    "text": "Out of the 3 options for adding comments to your Python Data Blog with Quarto, giscus is my favourite.\nNote that in this blog comments have been disabled everywhere except for the data posts via _metadata.yml files."
   },
   {
     "objectID": "coffee-reviews/cortado/index.html",

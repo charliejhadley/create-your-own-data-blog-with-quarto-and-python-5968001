@@ -5,3 +5,5 @@ date: "2025-08-29"
 ---
 
 Out of the 3 options for adding comments to your Python Data Blog with Quarto, [giscus](https://giscus.app/) is my favourite.
+
+Note that in this blog comments have been disabled everywhere except for the data posts via `_metadata.yml` files.
