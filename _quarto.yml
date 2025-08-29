@@ -8,7 +8,6 @@ website:
     title: "Charlotte's Data Blog"
     description: "Python blogging with Quarto for LinkedIn Learning"
   open-graph:
-    image: "https://raw.githubusercontent.com/charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001/refs/heads/06_02b/images/logo_gpcds_colour.png"
     title: "Charlotte's Data Blog"
     description: "Using Quarto to blog with Python via LinkedIn Learning"
   navbar:
