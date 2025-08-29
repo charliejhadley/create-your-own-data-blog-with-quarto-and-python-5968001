@@ -4,4 +4,4 @@ author: "Charlotte Hadley"
 date: "2025-08-29"
 ---
 
-I prefer giscus
+Out of the 3 options for adding comments to your Python Data Blog with Quarto, [giscus](https://giscus.app/) is my favourite.
