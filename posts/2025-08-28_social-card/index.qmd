@@ -8,16 +8,6 @@ open-graph:
     title: "Customise social cards for Quarto!"
 ---
 
+If a post has an open-graph title and description in the YAML header that content will be used in *most* social platforms - including LinkedIn.
 
-
-
-The first image displayed is this:
-
-![](../../images/tech-stack.png)
-
-But I want the listing **and** social media image to be this:
-
-![](listing-image.png)
-
-The Open Graph framework is supported by most social media platforms. It's a little inflexible - the image shown in your posts needs to be the same as the image in your blog listing
-
+The image option in the YAML header is used for both populating the listings within the blog **and** social cards when the page is shared.

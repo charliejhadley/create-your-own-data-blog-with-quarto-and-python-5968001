@@ -1,7 +1,0 @@
----
-title: "Bootstrap and Quarto blogs"
-date: "2025-08-18"
-author: "Charlotte Hadley"
----
-
-Bootstrap is great!

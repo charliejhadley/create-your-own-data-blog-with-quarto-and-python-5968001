@@ -1,6 +1,9 @@
 ---
 title: "Shiny Fishing Game"
 author: "Charlotte Hadley"
+open-graph:
+    description: "More of an idea than a project, really"
+    title: "Shiny Fishing Game"
 ---
 
 Shiny is an incredibly framework for [building interactive dashboards, web apps and more **directly** from Python](https://shiny.posit.co/py/gallery/).
