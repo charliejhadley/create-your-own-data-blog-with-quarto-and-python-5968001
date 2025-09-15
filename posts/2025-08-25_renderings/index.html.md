@@ -11,7 +11,7 @@ format:
 
 ### No crossref or caption
 
-::: {#df96a495 .cell renderings='["light","dark"]' execution_count=1}
+::: {#ca33d1d2 .cell renderings='["light","dark"]' execution_count=1}
 
 ::: {.cell-output .cell-output-display}
 ![](index_files/figure-html/cell-2-output-1.png){width=653 height=431}
@@ -25,7 +25,7 @@ format:
 
 # Accessing colours from brand palette
 
-::: {#e0243f9e .cell renderings='["light","dark"]' execution_count=2}
+::: {#517e7242 .cell renderings='["light","dark"]' execution_count=2}
 
 ::: {.cell-output .cell-output-display}
 ![](index_files/figure-html/cell-3-output-1.png){width=653 height=431}

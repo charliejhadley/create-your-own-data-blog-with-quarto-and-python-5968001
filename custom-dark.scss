@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+$headings-color: orange;
+
+/*-- scss:rules --*/
+.quarto-reader-toggle .bi::before,
+.quarto-color-scheme-toggle .bi::before {
+  height: 2rem !important;
+  width: 2rem !important;
+  background-size: 2rem 2rem !important;
+}

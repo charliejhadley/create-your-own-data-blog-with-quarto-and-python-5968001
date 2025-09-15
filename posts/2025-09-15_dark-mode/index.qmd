@@ -1,0 +1,70 @@
+---
+title: "Dark mode switch and branding"
+author: "Charlotte Hadley"
+date: 2025-09-15
+---
+
+## Customising the toggle
+
+The default toggle is very small. I've tweaked the size [following advice on GitHub](https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263), check out the custom*.scss files for how this was achieved.
+
+## Python rendering based on dark mode
+
+The code cell option rendering allows the output to switch based on the dark mode toggle.
+
+```{python}
+#| code-fold: true
+#| renderings: [light, dark]
+import matplotlib.pyplot as plt
+import numpy as np
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Parameters for the normal distribution
+mean = 0
+std_dev = 1
+x = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)
+y_light = (1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)
+y_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)
+
+# Plotting
+plt.figure(figsize=(8, 5))
+plt.plot(x, y_light, label='LIGHT MODE')
+plt.title('LIGHT MODE')
+plt.show()
+
+plt.figure(figsize=(8, 5))
+ax = plt.axes()
+ax.set_facecolor('silver')
+plt.plot(x, y_dark, label='DARK MODE')
+plt.title('DARK MODE')
+plt.show()
+```
+
+## Accessing colours from brand palette
+
+There is limited direct support in _brand.yml for light/dark colours. It might be easiest to explicitly name colours in the palette and access that with the `brand_yml` Python package.
+
+```{python}
+#| echo: false
+#| renderings: [light, dark]
+from brand_yml import Brand
+brand = Brand.from_yaml("../../_brand.yml")
+
+plt.figure(figsize=(8, 5))
+plt.plot(x, y_light, label='LIGHT MODE', color=brand.color.palette['light-mode-chart-headings'])
+plt.title('LIGHT MODE')
+plt.show()
+
+plt.figure(figsize=(8, 5))
+plt.plot(x, y_dark, label='DARK MODE', color=brand.color.palette['dark-mode-chart-headings'])
+plt.title('DARK MODE')
+plt.show()
+```
+
+::: {.dark-content}
+# Don't be scared of the dark
+
+You can use the `light-content` and `dark-content` classes to hide/show entire sections of your .qmd files based on the toggle state.
+:::

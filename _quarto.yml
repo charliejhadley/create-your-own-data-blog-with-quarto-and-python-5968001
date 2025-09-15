@@ -31,9 +31,5 @@ website:
 format:
   html:
     theme:
-      light: [_brand-light, cosmo, custom.scss]
-      dark: [_brand-dark, flatly, custom.scss]
-    brand:
-      light: _brand-light.yml
-      dark: _brand-dark.yml
-    css: styles.css
+      light: [cosmo, custom-light.scss]
+      dark: [darkly, custom-dark.scss]

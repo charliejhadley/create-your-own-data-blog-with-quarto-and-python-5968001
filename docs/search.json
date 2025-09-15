@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "A Blog With Python Thanks to Quarto",
     "section": "",
-    "text": "Welcome to my data (and sometimes coffee) blog.\n\n\n\n\n\n\n\n\n\n\nDark mode switch\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nRENDERINGS PLEASE\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my data (and sometimes coffee) blog.\n\n\n\n\n\n\n\n\n\n\nDark mode switch and branding\n\n\n\n\n\n\n\n\nSep 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nRENDERINGS PLEASE\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "coffee-blog.html",
@@ -67,7 +67,7 @@
     "href": "data-blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nDark mode switch\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nRENDERINGS PLEASE\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nDark mode switch and branding\n\n\n\n\n\n\n\n\nSep 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nRENDERINGS PLEASE\n\n\n\n\n\n\n\n\nAug 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -144,7 +144,7 @@
     "href": "posts/2025-08-19_brand-yml/index.html#accessing-_brand.yml-in-python-code.",
     "title": "_brand.yml for styling your blog",
     "section": "Accessing _brand.yml in python code….",
-    "text": "Accessing _brand.yml in python code….\nHere’s a plotnine chart that would look much nicer with our brand colours:\n\nimport plotnine as pn\nfrom palmerpenguins import load_penguins\n\npenguins_df = load_penguins()\n\npn.ggplot(penguins_df, pn.aes(x='species')) + pn.geom_bar(fill=\"red\", color='black', size=0.5) + pn.labs(\n        title='Number of Penguins per Species',\n        x='Species',\n        y='Count'\n    )\n\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107672160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107672160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107672160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead."
+    "text": "Accessing _brand.yml in python code….\nHere’s a plotnine chart that would look much nicer with our brand colours:\n\nimport plotnine as pn\nfrom palmerpenguins import load_penguins\n\npenguins_df = load_penguins()\n\npn.ggplot(penguins_df, pn.aes(x='species')) + pn.geom_bar(fill=\"red\", color='black', size=0.5) + pn.labs(\n        title='Number of Penguins per Species',\n        x='Species',\n        y='Count'\n    )\n\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107a16200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107a16200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x107a16200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead."
   },
   {
     "objectID": "posts/2025-08-20_scss/index.html",
@@ -201,5 +201,61 @@
     "title": "Dark mode",
     "section": "Accessing colours from brand palette",
     "text": "Accessing colours from brand palette"
+  },
+  {
+    "objectID": "posts/2025-09-15_new-dark/index.html",
+    "href": "posts/2025-09-15_new-dark/index.html",
+    "title": "Dark mode switch and branding",
+    "section": "",
+    "text": "The default toggle is very small. I’ve tweaked the size following advice on GitHub, check out the custom*.scss files for how this was achieved."
+  },
+  {
+    "objectID": "posts/2025-09-15_new-dark/index.html#customising-the-toggle",
+    "href": "posts/2025-09-15_new-dark/index.html#customising-the-toggle",
+    "title": "Dark mode switch and branding",
+    "section": "",
+    "text": "The default toggle is very small. I’ve tweaked the size following advice on GitHub, check out the custom*.scss files for how this was achieved."
+  },
+  {
+    "objectID": "posts/2025-09-15_new-dark/index.html#python-rendering-based-on-dark-mode",
+    "href": "posts/2025-09-15_new-dark/index.html#python-rendering-based-on-dark-mode",
+    "title": "Dark mode switch and branding",
+    "section": "Python rendering based on dark mode",
+    "text": "Python rendering based on dark mode\nThe code cell option rendering allows the output to switch based on the dark mode toggle.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Parameters for the normal distribution\nmean = 0\nstd_dev = 1\nx = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)\ny_light = (1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)\ny_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)\n\n# Plotting\nplt.figure(figsize=(8, 5))\nplt.plot(x, y_light, label='LIGHT MODE')\nplt.title('LIGHT MODE')\nplt.show()\n\nplt.figure(figsize=(8, 5))\nax = plt.axes()\nax.set_facecolor('silver')\nplt.plot(x, y_dark, label='DARK MODE')\nplt.title('DARK MODE')\nplt.show()"
+  },
+  {
+    "objectID": "posts/2025-09-15_new-dark/index.html#accessing-colours-from-brand-palette",
+    "href": "posts/2025-09-15_new-dark/index.html#accessing-colours-from-brand-palette",
+    "title": "Dark mode switch and branding",
+    "section": "Accessing colours from brand palette",
+    "text": "Accessing colours from brand palette\nThere is limited direct support in _brand.yml for light/dark colours. It might be easiest to explicitly name colours in the palette and access that with the brand_yml Python package."
+  },
+  {
+    "objectID": "posts/2025-09-15_dark-mode/index.html",
+    "href": "posts/2025-09-15_dark-mode/index.html",
+    "title": "Dark mode switch and branding",
+    "section": "",
+    "text": "The default toggle is very small. I’ve tweaked the size following advice on GitHub, check out the custom*.scss files for how this was achieved."
+  },
+  {
+    "objectID": "posts/2025-09-15_dark-mode/index.html#customising-the-toggle",
+    "href": "posts/2025-09-15_dark-mode/index.html#customising-the-toggle",
+    "title": "Dark mode switch and branding",
+    "section": "",
+    "text": "The default toggle is very small. I’ve tweaked the size following advice on GitHub, check out the custom*.scss files for how this was achieved."
+  },
+  {
+    "objectID": "posts/2025-09-15_dark-mode/index.html#python-rendering-based-on-dark-mode",
+    "href": "posts/2025-09-15_dark-mode/index.html#python-rendering-based-on-dark-mode",
+    "title": "Dark mode switch and branding",
+    "section": "Python rendering based on dark mode",
+    "text": "Python rendering based on dark mode\nThe code cell option rendering allows the output to switch based on the dark mode toggle.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Parameters for the normal distribution\nmean = 0\nstd_dev = 1\nx = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)\ny_light = (1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)\ny_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)\n\n# Plotting\nplt.figure(figsize=(8, 5))\nplt.plot(x, y_light, label='LIGHT MODE')\nplt.title('LIGHT MODE')\nplt.show()\n\nplt.figure(figsize=(8, 5))\nax = plt.axes()\nax.set_facecolor('silver')\nplt.plot(x, y_dark, label='DARK MODE')\nplt.title('DARK MODE')\nplt.show()"
+  },
+  {
+    "objectID": "posts/2025-09-15_dark-mode/index.html#accessing-colours-from-brand-palette",
+    "href": "posts/2025-09-15_dark-mode/index.html#accessing-colours-from-brand-palette",
+    "title": "Dark mode switch and branding",
+    "section": "Accessing colours from brand palette",
+    "text": "Accessing colours from brand palette\nThere is limited direct support in _brand.yml for light/dark colours. It might be easiest to explicitly name colours in the palette and access that with the brand_yml Python package."
   }
 ]

@@ -2,9 +2,9 @@
   "hash": "b89bef716554b989ffa6515420fb8db1",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"RENDERINGS PLEASE\"\nauthor: \"Charlotte Hadley\"\ndate: \"2025-08-25\"\nkeep-md: true\nformat:\n  html:\n    code-tools:\n      source: https://github.com/quarto-dev/quarto-examples/blob/main/renderings/matplotlib.qmd\n---\n\n### No crossref or caption\n\n::: {#df96a495 .cell renderings='[\"light\",\"dark\"]' execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-2.png){width=665 height=431}\n:::\n:::\n\n\n# Accessing colours from brand palette\n\n::: {#e0243f9e .cell renderings='[\"light\",\"dark\"]' execution_count=2}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-2.png){width=665 height=431}\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: \"RENDERINGS PLEASE\"\nauthor: \"Charlotte Hadley\"\ndate: \"2025-08-25\"\nkeep-md: true\nformat:\n  html:\n    code-tools:\n      source: https://github.com/quarto-dev/quarto-examples/blob/main/renderings/matplotlib.qmd\n---\n\n### No crossref or caption\n\n::: {#ca33d1d2 .cell renderings='[\"light\",\"dark\"]' execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-2.png){width=665 height=431}\n:::\n:::\n\n\n# Accessing colours from brand palette\n\n::: {#517e7242 .cell renderings='[\"light\",\"dark\"]' execution_count=2}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-2.png){width=665 height=431}\n:::\n:::\n\n\n",
     "supporting": [
-      "index_files/figure-html"
+      "index_files"
     ],
     "filters": [],
     "includes": {}

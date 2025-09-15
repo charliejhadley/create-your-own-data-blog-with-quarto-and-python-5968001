@@ -1,0 +1,12 @@
+{
+  "hash": "2b92e2f50098248776beef7c0516c574",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Dark mode switch and branding\"\nauthor: \"Charlotte Hadley\"\ndate: 2025-09-15\n---\n\n## Customising the toggle\n\nThe default toggle is very small. I've tweaked the size [following advice on GitHub](https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263), check out the custom*.scss files for how this was achieved.\n\n## Python rendering based on dark mode\n\nThe code cell option rendering allows the output to switch based on the dark mode toggle.\n\n::: {#b16bb74d .cell renderings='[\"light\",\"dark\"]' execution_count=1}\n``` {.python .cell-code code-fold=\"true\"}\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Parameters for the normal distribution\nmean = 0\nstd_dev = 1\nx = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)\ny_light = (1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)\ny_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)\n\n# Plotting\nplt.figure(figsize=(8, 5))\nplt.plot(x, y_light, label='LIGHT MODE')\nplt.title('LIGHT MODE')\nplt.show()\n\nplt.figure(figsize=(8, 5))\nax = plt.axes()\nax.set_facecolor('silver')\nplt.plot(x, y_dark, label='DARK MODE')\nplt.title('DARK MODE')\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-2.png){width=665 height=431}\n:::\n:::\n\n\n## Accessing colours from brand palette\n\nThere is limited direct support in _brand.yml for light/dark colours. It might be easiest to explicitly name colours in the palette and access that with the `brand_yml` Python package.\n\n::: {#92dd9d15 .cell renderings='[\"light\",\"dark\"]' execution_count=2}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){width=653 height=431}\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-2.png){width=665 height=431}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
