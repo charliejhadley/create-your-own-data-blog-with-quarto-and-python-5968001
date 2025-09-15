@@ -9,6 +9,11 @@
 <link>https://frabjous-narwhal-9b2689.netlify.app/coffee-blog.html</link>
 <atom:link href="https://frabjous-narwhal-9b2689.netlify.app/coffee-blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
+<image>
+<url>https://frabjous-narwhal-9b2689.netlify.app/images/logo_gpcds_colour.png</url>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>https://frabjous-narwhal-9b2689.netlify.app/coffee-blog.html</link>
+</image>
 <generator>quarto-1.7.33</generator>
 <lastBuildDate>Thu, 07 Aug 2025 23:00:00 GMT</lastBuildDate>
 <item>

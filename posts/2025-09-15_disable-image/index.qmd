@@ -1,0 +1,15 @@
+---
+title: "Image discovery disabled"
+author: "Charlotte Hadley"
+date: "2025-08-28"
+image: false
+open-graph:
+    description: "It's slightly more picky than you'd like..."
+    title: "Test how OpenGraph and LinkedIn work"
+---
+
+In this post image is set to false.
+
+But we also include an image to check exactly what happens...
+
+![](listing-image.png)

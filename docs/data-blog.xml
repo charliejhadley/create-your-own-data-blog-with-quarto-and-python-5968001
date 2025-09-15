@@ -9,8 +9,33 @@
 <link>https://frabjous-narwhal-9b2689.netlify.app/data-blog.html</link>
 <atom:link href="https://frabjous-narwhal-9b2689.netlify.app/data-blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
+<image>
+<url>https://frabjous-narwhal-9b2689.netlify.app/images/logo_gpcds_colour.png</url>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>https://frabjous-narwhal-9b2689.netlify.app/data-blog.html</link>
+</image>
 <generator>quarto-1.7.33</generator>
 <lastBuildDate>Wed, 27 Aug 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Image discovery disabled</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-09-15_disable-image/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In this post image is set to false.</p>
+<p>But we also include an image to check exactly what happens…</p>
+<p><img src="https://frabjous-narwhal-9b2689.netlify.app/posts/2025-09-15_disable-image/listing-image.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-09-15_disable-image/</guid>
+  <pubDate>Wed, 27 Aug 2025 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Social cards and open graph</title>
   <dc:creator>Charlotte Hadley</dc:creator>

@@ -11,14 +11,14 @@
     "href": "index.html",
     "title": "A Blog With Python Thanks to Quarto",
     "section": "",
-    "text": "Welcome to my data (and sometimes coffee) blog.\n\nMy data blog posts…\n\n\n\n\n\n\n\n\n\n\nSocial cards and open graph\n\n\n\n\n\n\n\n\nAug 28, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nResponsiveness and mobile devices\n\n\n\n\n\n\n\n\nAug 27, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my data (and sometimes coffee) blog.\n\nMy data blog posts…\n\n\n\n\n\n\n\n\n\n\nImage discovery disabled\n\n\n\n\n\n\n\n\nAug 28, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSocial cards and open graph\n\n\n\n\n\n\n\n\nAug 28, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nResponsiveness and mobile devices\n\n\n\n\n\n\n\n\nAug 27, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "data-blog.html",
     "href": "data-blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nSocial cards and open graph\n\n\n\n\n\n\n\n\nAug 28, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nResponsiveness and mobile devices\n\n\n\n\n\n\n\n\nAug 27, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
+    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nImage discovery disabled\n\n\n\n\n\n\n\n\nAug 28, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSocial cards and open graph\n\n\n\n\n\n\n\n\nAug 28, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nResponsiveness and mobile devices\n\n\n\n\n\n\n\n\nAug 27, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nAug 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nBootstrap and Quarto blogs\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 12, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nHello World with the Palmer Penguins\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "coffee-reviews/cortado/index.html",
@@ -56,11 +56,25 @@
     "text": "If a post has an open-graph title and description in the YAML header that content will be used in most social platforms - including LinkedIn.\nThe image option in the YAML header is used for both populating the listings within the blog and social cards when the page is shared."
   },
   {
-    "objectID": "posts/2025-08-08_hello-world-with-palmer-penguins/index.html",
-    "href": "posts/2025-08-08_hello-world-with-palmer-penguins/index.html",
-    "title": "Hello World with the Palmer Penguins",
+    "objectID": "posts/2025-08-20_scss/index.html",
+    "href": "posts/2025-08-20_scss/index.html",
+    "title": "SCSS and SASS Variables",
     "section": "",
-    "text": "The penguins dataset is always useful!!\n\nfrom palmerpenguins import load_penguins\nimport pandas as pd\nimport numpy as np\n\npenguins_df = load_penguins()\npenguins_cleaned_df = penguins_df.dropna()\n\nspecies_counts = penguins_cleaned_df['species'].value_counts()\n\n\nShowing Matplotlib Charts\nWe can display matplotlib charts directly:\n\nimport matplotlib.pyplot as plt\n\nplot = plt.figure()\nplot.set_figwidth(6)\nplot.set_figheight(3)\n\nplt.bar(species_counts.index, species_counts.values)"
+    "text": "Bootstrap exposes over 1400 SASS variables.\nThese can be used in .scss files where we can also apply nested rules.\n\nCustomising cards with nested rules\n\n\nHeading\nTake a look at the custom.scss file to understand how this is formatted."
+  },
+  {
+    "objectID": "posts/2025-08-19_brand-yml/index.html",
+    "href": "posts/2025-08-19_brand-yml/index.html",
+    "title": "_brand.yml for styling your blog",
+    "section": "",
+    "text": "You might want to use brand colours in HTML using Shortcodes…"
+  },
+  {
+    "objectID": "posts/2025-08-19_brand-yml/index.html#accessing-_brand.yml-in-python-code.",
+    "href": "posts/2025-08-19_brand-yml/index.html#accessing-_brand.yml-in-python-code.",
+    "title": "_brand.yml for styling your blog",
+    "section": "Accessing _brand.yml in python code….",
+    "text": "Accessing _brand.yml in python code….\nHere’s a plotnine chart that would look much nicer with our brand colours:\n\nimport plotnine as pn\nfrom palmerpenguins import load_penguins\n\npenguins_df = load_penguins()\n\npn.ggplot(penguins_df, pn.aes(x='species')) + pn.geom_bar(fill=\"red\", color='black', size=0.5) + pn.labs(\n        title='Number of Penguins per Species',\n        x='Species',\n        y='Count'\n    )\n\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead."
   },
   {
     "objectID": "side-projects.html",
@@ -84,25 +98,18 @@
     "text": "Creative projects\n\nBaking\nSurely I can make better scones?"
   },
   {
-    "objectID": "posts/2025-08-19_brand-yml/index.html",
-    "href": "posts/2025-08-19_brand-yml/index.html",
-    "title": "_brand.yml for styling your blog",
+    "objectID": "posts/2025-08-08_hello-world-with-palmer-penguins/index.html",
+    "href": "posts/2025-08-08_hello-world-with-palmer-penguins/index.html",
+    "title": "Hello World with the Palmer Penguins",
     "section": "",
-    "text": "You might want to use brand colours in HTML using Shortcodes…"
+    "text": "The penguins dataset is always useful!!\n\nfrom palmerpenguins import load_penguins\nimport pandas as pd\nimport numpy as np\n\npenguins_df = load_penguins()\npenguins_cleaned_df = penguins_df.dropna()\n\nspecies_counts = penguins_cleaned_df['species'].value_counts()\n\n\nShowing Matplotlib Charts\nWe can display matplotlib charts directly:\n\nimport matplotlib.pyplot as plt\n\nplot = plt.figure()\nplot.set_figwidth(6)\nplot.set_figheight(3)\n\nplt.bar(species_counts.index, species_counts.values)"
   },
   {
-    "objectID": "posts/2025-08-19_brand-yml/index.html#accessing-_brand.yml-in-python-code.",
-    "href": "posts/2025-08-19_brand-yml/index.html#accessing-_brand.yml-in-python-code.",
-    "title": "_brand.yml for styling your blog",
-    "section": "Accessing _brand.yml in python code….",
-    "text": "Accessing _brand.yml in python code….\nHere’s a plotnine chart that would look much nicer with our brand colours:\n\nimport plotnine as pn\nfrom palmerpenguins import load_penguins\n\npenguins_df = load_penguins()\n\npn.ggplot(penguins_df, pn.aes(x='species')) + pn.geom_bar(fill=\"red\", color='black', size=0.5) + pn.labs(\n        title='Number of Penguins per Species',\n        x='Species',\n        y='Count'\n    )\n\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead.\n/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"sum\" instead."
-  },
-  {
-    "objectID": "posts/2025-08-20_scss/index.html",
-    "href": "posts/2025-08-20_scss/index.html",
-    "title": "SCSS and SASS Variables",
+    "objectID": "posts/2025-09-15_disable-image/index.html",
+    "href": "posts/2025-09-15_disable-image/index.html",
+    "title": "Image discovery disabled",
     "section": "",
-    "text": "Bootstrap exposes over 1400 SASS variables.\nThese can be used in .scss files where we can also apply nested rules.\n\nCustomising cards with nested rules\n\n\nHeading\nTake a look at the custom.scss file to understand how this is formatted."
+    "text": "In this post image is set to false.\nBut we also include an image to check exactly what happens…"
   },
   {
     "objectID": "posts/2025-08-12_interactive-charts/index.html",
