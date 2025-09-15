@@ -1,0 +1,9 @@
+---
+title: "Bootstrap and Quarto blogs"
+date: "2025-08-18"
+author: "Charlotte Hadley"
+categories:
+  - "Web dev"
+---
+
+Bootstrap is great!
