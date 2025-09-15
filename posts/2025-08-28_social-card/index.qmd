@@ -13,9 +13,3 @@ open-graph:
 ---
 
 The Open Graph framework is supported by most social media platforms. It's a little inflexible - the image shown in your posts needs to be the same as the image in your blog listing
-
-::: {.content-hidden}
-
-![](listing-image.png)
-
-:::
