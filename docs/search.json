@@ -95,7 +95,7 @@
     "href": "posts/2025-08-28_social-card/index.html",
     "title": "Social cards and open graph",
     "section": "",
-    "text": "The Open Graph framework is supported by most social media platforms. It’s a little inflexible - the image shown in your posts needs to be the same as the image in your blog listing"
+    "text": "The first image displayed is this:\n\nBut I want the listing and social media image to be this:\n\nThe Open Graph framework is supported by most social media platforms. It’s a little inflexible - the image shown in your posts needs to be the same as the image in your blog listing"
   },
   {
     "objectID": "posts/2025-08-14_advice-for-more-complex-posts/index.html",

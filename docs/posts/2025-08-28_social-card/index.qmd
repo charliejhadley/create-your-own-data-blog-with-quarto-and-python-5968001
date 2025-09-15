@@ -14,11 +14,8 @@ open-graph:
 
 The first image displayed is this:
 
-![](../../images/tech-stack.png)
+![](../..)
 
-But I want the listing **and** social media image to be this:
-
-![](listing-image.png)
 
 The Open Graph framework is supported by most social media platforms. It's a little inflexible - the image shown in your posts needs to be the same as the image in your blog listing
 
