@@ -16,7 +16,7 @@
         "\n",
         "::: {.g-col-6 .g-col-md-4}"
       ],
-      "id": "ca954664"
+      "id": "6d9984c5"
     },
     {
       "cell_type": "code",
@@ -34,7 +34,7 @@
         "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
         "m"
       ],
-      "id": "d0b80577",
+      "id": "c9b4cfd7",
       "execution_count": null,
       "outputs": []
     },
@@ -46,7 +46,7 @@
         "\n",
         "::: {.g-col-6 .g-col-md-4}"
       ],
-      "id": "84c6ac19"
+      "id": "9db0656b"
     },
     {
       "cell_type": "code",
@@ -64,7 +64,7 @@
         "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
         "m"
       ],
-      "id": "e6e8a735",
+      "id": "ddbe2b27",
       "execution_count": null,
       "outputs": []
     },
@@ -76,7 +76,7 @@
         "\n",
         "::: {.g-col-6 .g-col-md-4}"
       ],
-      "id": "8d8cecfe"
+      "id": "c8764756"
     },
     {
       "cell_type": "code",
@@ -94,7 +94,7 @@
         "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
         "m"
       ],
-      "id": "3026c305",
+      "id": "6dc64b2a",
       "execution_count": null,
       "outputs": []
     },
@@ -120,7 +120,7 @@
         "![](../../images/tech-stack.png)\n",
         ":::"
       ],
-      "id": "56e2dc44"
+      "id": "ddca9743"
     }
   ],
   "metadata": {

@@ -16,7 +16,7 @@
         "\n",
         "Here's a plotnine chart that would look much nicer with our brand colours:"
       ],
-      "id": "941ab7d7"
+      "id": "5b8631cc"
     },
     {
       "cell_type": "code",
@@ -33,7 +33,7 @@
         "        y='Count'\n",
         "    )"
       ],
-      "id": "2287ea38",
+      "id": "f083718c",
       "execution_count": null,
       "outputs": []
     }

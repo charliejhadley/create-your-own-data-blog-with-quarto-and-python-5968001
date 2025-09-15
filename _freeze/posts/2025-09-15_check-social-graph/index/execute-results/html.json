@@ -1,0 +1,12 @@
+{
+  "hash": "512a523aa144b249cdae2ffe2b333553",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Check time for social graph\"\nauthor: \"Charlotte Hadley\"\ndate: 2025-09-15\n---\n\n::: {#a5774e19 .cell execution_count=1}\n``` {.python .cell-code}\nimport datetime\ndatetime.datetime.now()\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\ndatetime.datetime(2025, 9, 15, 15, 54, 9, 472610)\n```\n:::\n:::\n\n\n![](listing-image.png)\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

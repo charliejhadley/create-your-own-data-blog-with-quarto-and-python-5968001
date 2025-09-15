@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Charlotte Hadley">
+<meta name="dcterms.date" content="2025-09-15">
 
-<title>A Blog With Python Thanks to Quarto</title>
+<title>Check time for social graph – A Blog With Python Thanks to Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,28 +22,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6ab4f3cb095196c4e4aeb86b888710f8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6ab4f3cb095196c4e4aeb86b888710f8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,85 +104,27 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-data-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-data-blog'] = new List('listing-data-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Charlotte’s Data Blog">
 <meta property="og:description" content="Using Quarto to blog with Python via LinkedIn Learning">
-<meta property="og:image" content="./posts/2025-08-12_interactive-charts/post-preview.png">
+<meta property="og:image" content="listing-image.png">
 <meta property="og:site_name" content="A Blog With Python Thanks to Quarto">
 <meta name="twitter:title" content="Charlotte’s Data Blog">
 <meta name="twitter:description" content="Python blogging with Quarto for LinkedIn Learning">
-<meta name="twitter:image" content="./posts/2025-08-12_interactive-charts/post-preview.png">
+<meta name="twitter:image" content="listing-image.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">A Blog With Python Thanks to Quarto</span>
     </a>
   </div>
@@ -158,19 +135,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./data-blog.html"> <i class="bi bi-pie-chart-fill" role="img">
+    <a class="nav-link" href="../../data-blog.html"> <i class="bi bi-pie-chart-fill" role="img">
 </i> 
 <span class="menu-text">Data blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./coffee-blog.html"> <i class="bi bi-cup-hot-fill" role="img">
+    <a class="nav-link" href="../../coffee-blog.html"> <i class="bi bi-cup-hot-fill" role="img">
 </i> 
 <span class="menu-text">Coffee blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -188,297 +165,53 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">A Blog With Python Thanks to Quarto</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Check time for social graph</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Charlotte Hadley </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 15, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="YWR2aWNl">advice <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZGF0YXZpeg==">dataviz <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<p>Welcome to my data (and sometimes coffee) blog.</p>
-<section id="my-data-blog-posts" class="level1 page-columns page-full">
-<h1>My data blog posts…</h1>
-<div id="listing-data-blog" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1757890800000" data-listing-file-modified-sort="1757948043370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./posts/2025-09-15_check-social-graph/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/2025-09-15_check-social-graph/listing-image.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title" data-anchor-id="my-data-blog-posts">
-<a href="./posts/2025-09-15_check-social-graph/index.html" class="no-external">Check time for social graph</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-15_check-social-graph/index.html" class="no-external">
-
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im">import</span> datetime</span>
-<span id="cb1-2">datetime.datetime.now()</span></code></pre></div>
+<div id="a5774e19" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>datetime.datetime.now()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>datetime.datetime(2025, 9, 15, 15, 54, 9, 472610)</code></pre>
 </div>
-
-</a></div>
 </div>
-<div class="metadata">
-<a href="./posts/2025-09-15_check-social-graph/index.html" class="no-external">
-<div class="listing-date">
-Sep 15, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1756335600000" data-listing-file-modified-sort="1757947673713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<div class="thumbnail"><a href="./posts/2025-08-28_social-card/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025-08-28_social-card/listing-image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-28_social-card/index.html" class="no-external">Social cards and open graph</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-08-28_social-card/index.html" class="no-external">
-The Open Graph framework is supported by most social media platforms. It’s a little inflexible - the image shown in your posts needs to be the same as the image in your blog…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-08-28_social-card/index.html" class="no-external">
-<div class="listing-date">
-Aug 28, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1756249200000" data-listing-file-modified-sort="1757946984615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<div class="thumbnail"><a href="./posts/2025-08-27_responsive-bootstrap/index.html" class="no-external">
-
-<p class="card-img-top"><img src="images/tech-stack.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-27_responsive-bootstrap/index.html" class="no-external">Responsiveness and mobile devices</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-08-27_responsive-bootstrap/index.html" class="no-external">
-Bootstrap’s grid layout system provides true flexibility. It can get quite complicated.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-08-27_responsive-bootstrap/index.html" class="no-external">
-<div class="listing-date">
-Aug 27, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1755644400000" data-listing-file-modified-sort="1757937485044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="thumbnail"><a href="./posts/2025-08-20_scss/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-20_scss/index.html" class="no-external">SCSS and SASS Variables</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-08-20_scss/index.html" class="no-external">
-Bootstrap exposes over 1400 SASS variables.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-08-20_scss/index.html" class="no-external">
-<div class="listing-date">
-Aug 20, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1755558000000" data-listing-file-modified-sort="1757937485043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<div class="thumbnail"><a href="./posts/2025-08-19_brand-yml/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/2025-08-19_brand-yml/index_files/figure-html/cell-2-output-2.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-19_brand-yml/index.html" class="no-external">_brand.yml for styling your blog</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-08-19_brand-yml/index.html" class="no-external">
-<span>You might want to use brand colours in HTML using Shortcodes</span>…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-08-19_brand-yml/index.html" class="no-external">
-<div class="listing-date">
-Aug 19, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1755471600000" data-listing-file-modified-sort="1757937485043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<div class="thumbnail"><a href="./posts/2025-08-18_bootstrap/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-18_bootstrap/index.html" class="no-external">Bootstrap and Quarto blogs</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-08-18_bootstrap/index.html" class="no-external">
-Bootstrap is great!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-08-18_bootstrap/index.html" class="no-external">
-<div class="listing-date">
-Aug 18, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="YWR2aWNlJTJDY29kZQ==" data-listing-date-sort="1755212400000" data-listing-file-modified-sort="1757937485042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
-<div class="thumbnail"><a href="./posts/2025-08-14_advice-for-more-complex-posts/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/2025-08-14_advice-for-more-complex-posts/scatter-clustering.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-14_advice-for-more-complex-posts/index.html" class="no-external">Advice for more complex posts</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('YWR2aWNl'); return false;">advice</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2025-08-14_advice-for-more-complex-posts/index.html" class="no-external">
-As your blogposts become more complex you might feel it’s overwhelming having all of your code in the index.qmd file
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-08-14_advice-for-more-complex-posts/index.html" class="no-external">
-<div class="listing-date">
-Aug 15, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="Y29kZSUyQ2RhdGF2aXo=" data-listing-date-sort="1754953200000" data-listing-file-modified-sort="1757937485041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<div class="thumbnail"><a href="./posts/2025-08-12_interactive-charts/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025-08-12_interactive-charts/post-preview.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-12_interactive-charts/index.html" class="no-external">Interactive charts</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXZpeg=='); return false;">dataviz</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2025-08-12_interactive-charts/index.html" class="no-external">
-Have you heard about Jupyter Widgets for embedding interactivite elements in Jupyter documents?
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-08-12_interactive-charts/index.html" class="no-external">
-<div class="listing-date">
-Aug 12, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="Y29kZSUyQ2RhdGF2aXo=" data-listing-date-sort="1754607600000" data-listing-file-modified-sort="1757937485041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./posts/2025-08-08_hello-world-with-palmer-penguins/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025-08-08_hello-world-with-palmer-penguins/post-preview.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-08_hello-world-with-palmer-penguins/index.html" class="no-external">Hello World with the Palmer Penguins</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXZpeg=='); return false;">dataviz</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2025-08-08_hello-world-with-palmer-penguins/index.html" class="no-external">
-The penguins dataset is always useful!!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-08-08_hello-world-with-palmer-penguins/index.html" class="no-external">
-<div class="listing-date">
-Aug 8, 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="column-page-inset">
-<p><img src="images/tech-stack.png" class="img-fluid"></p>
-</div>
+<p><img src="listing-image.png" class="img-fluid"></p>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
