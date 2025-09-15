@@ -3,14 +3,13 @@ title: "Social cards and open graph"
 author: "Charlotte Hadley"
 date: "2025-08-28"
 image: "listing-image.png"
-twitter-card:
-    description: "X requires different information"
-    image: "listing-image.png"
-    title: "Customise social cards for Quarto!"
 open-graph:
     description: "It's slightly more picky than you'd like..."
     title: "Customise social cards for Quarto!"
 ---
+
+
+
 
 The first image displayed is this:
 
