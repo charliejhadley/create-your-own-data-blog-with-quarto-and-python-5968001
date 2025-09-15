@@ -4,20 +4,27 @@ project:
 
 website:
   title: "A Blog With Python Thanks to Quarto"
+  site-url: "https://frabjous-narwhal-9b2689.netlify.app"
   comments: 
     giscus:
       repo: charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001
-  twitter-card:
-    title: "Charlotte's Data Blog"
-    description: "Python blogging with Quarto for LinkedIn Learning"
   open-graph:
     title: "Charlotte's Data Blog"
     description: "Using Quarto to blog with Python via LinkedIn Learning"
+    image: "/images/logo_gpcds_colour.png"
   navbar:
     left:
       - text: "Data blog"
         icon: pie-chart-fill
         href: data-blog.qmd
+      - icon: joystick
+        text: "Side Projects"
+        menu:
+          - text: "Data projects"
+          - text: "Shiny fishing game"
+            href: side-projects/shiny-fishing-project/index.qmd
+          - text: "---"
+          - text: "Creative projects [Coming Soon]"
     right:
       - text: "Coffee blog"
         icon: cup-hot-fill

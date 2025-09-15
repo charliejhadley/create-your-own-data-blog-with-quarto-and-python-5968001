@@ -74,10 +74,10 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Charlotte’s Data Blog">
 <meta property="og:description" content="Using Quarto to blog with Python via LinkedIn Learning">
+<meta property="og:image" content="https://frabjous-narwhal-9b2689.netlify.app/images/logo_gpcds_colour.png">
 <meta property="og:site_name" content="A Blog With Python Thanks to Quarto">
-<meta name="twitter:title" content="Charlotte’s Data Blog">
-<meta name="twitter:description" content="Python blogging with Quarto for LinkedIn Learning">
-<meta name="twitter:card" content="summary">
+<meta property="og:image:height" content="3000">
+<meta property="og:image:width" content="3000">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -102,6 +102,22 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text">Data blog</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-side-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-joystick" role="img">
+</i> 
+ <span class="menu-text">Side Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-side-projects">    
+        <li class="dropdown-header">Data projects</li>
+        <li>
+    <a class="dropdown-item" href="../../side-projects/shiny-fishing-project/index.html">
+ <span class="dropdown-text">Shiny fishing game</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Creative projects [Coming Soon]</li>
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -243,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/frabjous-narwhal-9b2689\.netlify\.app");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
