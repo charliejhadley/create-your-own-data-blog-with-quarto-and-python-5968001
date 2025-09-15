@@ -4,6 +4,7 @@ project:
 
 website:
   title: "A Blog With Python Thanks to Quarto"
+  site-url: "https://frabjous-narwhal-9b2689.netlify.app"
   open-graph:
     title: "Charlotte's Data Blog"
     description: "Using Quarto to blog with Python via LinkedIn Learning"

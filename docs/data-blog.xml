@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>https://frabjous-narwhal-9b2689.netlify.app/data-blog.html</link>
+<atom:link href="https://frabjous-narwhal-9b2689.netlify.app/data-blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.7.33</generator>
+<lastBuildDate>Wed, 27 Aug 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Social cards and open graph</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-28_social-card/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>If a post has an open-graph title and description in the YAML header that content will be used in <em>most</em> social platforms - including LinkedIn.</p>
+<p>The image option in the YAML header is used for both populating the listings within the blog <strong>and</strong> social cards when the page is shared.</p>
+
+
+
+ ]]></description>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-28_social-card/</guid>
+  <pubDate>Wed, 27 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-28_social-card/listing-image.png" medium="image" type="image/png" height="67" width="144"/>
+</item>
+<item>
+  <title>Responsiveness and mobile devices</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-27_responsive-bootstrap/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://quarto.org/docs/output-formats/page-layout.html#css-grid">Bootstrap’s grid layout system</a> provides true flexibility. It can get quite complicated.</p>
+<div class="grid">
+<div class="g-col-6 g-col-md-4">
+<div id="389100b0" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="7">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"338fa2511da446659f096cb65aa9b3f1","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
+</script>
+</div>
+</div>
+</div>
+<div class="g-col-6 g-col-md-4">
+<div id="4eaa7ddb" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display" data-execution_count="8">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"21edb3790f024ebb9d4b3c91901f958e","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
+</script>
+</div>
+</div>
+</div>
+<div class="g-col-6 g-col-md-4">
+<div id="f460004b" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display" data-execution_count="9">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"d23cd4894b9344fb854e7737fc82932c","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
+</script>
+</div>
+</div>
+</div>
+</div>
+<section id="quartos-own-formats" class="level1 page-columns page-full">
+<h1>Quarto’s own formats</h1>
+<p>There are several article layouts that give you more of the screen.</p>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>Note you can use these <a href="https://quarto.org/docs/authoring/article-layout.html">Quarto layouts</a> in any HTML format.</p>
+</div></div><hr>
+<div class="column-screen">
+<p><img src="https://frabjous-narwhal-9b2689.netlify.app/images/tech-stack.png" class="img-fluid"></p>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-27_responsive-bootstrap/</guid>
+  <pubDate>Tue, 26 Aug 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SCSS and SASS Variables</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-20_scss/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Bootstrap exposes <a href="https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss">over 1400 SASS variables</a>.</p>
+<p>These can be used in .scss files where we can also apply nested rules.</p>
+<section id="customising-cards-with-nested-rules" class="level1">
+<h1>Customising cards with nested rules</h1>
+</section>
+<section id="heading" class="level1 card">
+<h1>Heading</h1>
+<p>Take a look at the <code>custom.scss</code> file to understand how this is formatted.</p>
+</section>
+
+
+
+ ]]></description>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-20_scss/</guid>
+  <pubDate>Tue, 19 Aug 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>_brand.yml for styling your blog</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-19_brand-yml/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><span>You might want to use brand colours in HTML using <a href="https://quarto.org/docs/extensions/shortcodes.html">Shortcodes</a></span>…</p>
+<section id="accessing-_brand.yml-in-python-code." class="level2">
+<h2 class="anchored" data-anchor-id="accessing-_brand.yml-in-python-code.">Accessing _brand.yml in python code….</h2>
+<p>Here’s a plotnine chart that would look much nicer with our brand colours:</p>
+<div id="aa3dfb87" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> plotnine <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pn</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> palmerpenguins <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> load_penguins</span>
+<span id="cb1-3"></span>
+<span id="cb1-4">penguins_df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> load_penguins()</span>
+<span id="cb1-5"></span>
+<span id="cb1-6">pn.ggplot(penguins_df, pn.aes(x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'species'</span>)) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> pn.geom_bar(fill<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"red"</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'black'</span>, size<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> pn.labs(</span>
+<span id="cb1-7">        title<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Number of Penguins per Species'</span>,</span>
+<span id="cb1-8">        x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Species'</span>,</span>
+<span id="cb1-9">        y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Count'</span></span>
+<span id="cb1-10">    )</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.
+/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.
+/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-19_brand-yml/index_files/figure-html/cell-2-output-2.png" width="640" height="480" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-19_brand-yml/</guid>
+  <pubDate>Mon, 18 Aug 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bootstrap and Quarto blogs</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-18_bootstrap/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Bootstrap is great!</p>
+
+
+
+ ]]></description>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-18_bootstrap/</guid>
+  <pubDate>Sun, 17 Aug 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Advice for more complex posts</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-14_advice-for-more-complex-posts/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>As your blogposts become more complex you might feel it’s overwhelming having all of your code in the index.qmd file</p>
+<p>Great news! It’s easy to run a script file from a blogpost using a code chunk that looks like this:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{python}</span></span>
+<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># | include: false</span></span>
+<span id="cb1-3"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span>run penguins<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>clustering.py</span>
+<span id="cb1-4"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>This script performs a K-Means clustering on the palmer penguins dataset.</p>
+<p>Out of 333 penguins, our model misclassified 5.0% of the penguins.</p>
+<p>The model has these parameters:</p>
+<ul>
+<li><p>Number of Clusters: 3</p></li>
+<li><p>Max Iterations: 300</p></li>
+</ul>
+<p>This plotnine chart exposes where penguins were misclassified:</p>
+<p><img src="https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-14_advice-for-more-complex-posts/scatter-clustering.png" style="width:6in;height:4in"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>advice</category>
+  <category>code</category>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-14_advice-for-more-complex-posts/</guid>
+  <pubDate>Thu, 14 Aug 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Interactive charts</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-12_interactive-charts/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Have you heard about <a href="https://jupyter.org/widgets">Jupyter Widgets</a> for embedding interactivite elements in Jupyter documents?</p>
+<p><img src="https://frabjous-narwhal-9b2689.netlify.app/images/icon-jupyter.png" width="100px"></p>
+<p>Well! Because Quarto uses Jupyter for rendering Python content that means you can also use these widgets in your data blog!</p>
+<p>As an example, here’s a map centered on the Royal Observatory Greenwich:</p>
+<div id="c5fe2cac" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> ipyleaflet <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> Map, Marker, basemaps, basemap_to_tiles</span>
+<span id="cb1-2">m <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Map(</span>
+<span id="cb1-3">  basemap<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>basemap_to_tiles(</span>
+<span id="cb1-4">    basemaps.NASAGIBS.ModisTerraTrueColorCR, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2017-04-08"</span></span>
+<span id="cb1-5">  ),</span>
+<span id="cb1-6">  center<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">51.476852</span>, <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.000500</span>),</span>
+<span id="cb1-7">  zoom<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span></span>
+<span id="cb1-8">)</span>
+<span id="cb1-9">m.add_layer(Marker(location<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">51.476852</span>, <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.000500</span>)))</span>
+<span id="cb1-10">m</span></code></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"9b1e04490bef4f51a7d6c5bf4452ceb6","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
+</script>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>code</category>
+  <category>dataviz</category>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-12_interactive-charts/</guid>
+  <pubDate>Mon, 11 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-12_interactive-charts/post-preview.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>Hello World with the Palmer Penguins</title>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-08_hello-world-with-palmer-penguins/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The penguins dataset is always useful!!</p>
+<div id="ba6da8af" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> palmerpenguins <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> load_penguins</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pd</span>
+<span id="cb1-3"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-4"></span>
+<span id="cb1-5">penguins_df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> load_penguins()</span>
+<span id="cb1-6">penguins_cleaned_df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> penguins_df.dropna()</span>
+<span id="cb1-7"></span>
+<span id="cb1-8">species_counts <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> penguins_cleaned_df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'species'</span>].value_counts()</span></code></pre></div>
+</div>
+<section id="showing-matplotlib-charts" class="level1">
+<h1>Showing Matplotlib Charts</h1>
+<p>We can display matplotlib charts directly:</p>
+<div id="0481fe56" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">plot <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure()</span>
+<span id="cb2-4">plot.set_figwidth(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>)</span>
+<span id="cb2-5">plot.set_figheight(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)</span>
+<span id="cb2-6"></span>
+<span id="cb2-7">plt.bar(species_counts.index, species_counts.values)</span></code></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-08_hello-world-with-palmer-penguins/index_files/figure-html/cell-3-output-1.png" width="500" height="263" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>code</category>
+  <category>dataviz</category>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-08_hello-world-with-palmer-penguins/</guid>
+  <pubDate>Thu, 07 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-08_hello-world-with-palmer-penguins/post-preview.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+</channel>
+</rss>

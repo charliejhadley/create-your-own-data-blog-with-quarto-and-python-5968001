@@ -108,8 +108,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Charlotte’s Data Blog">
 <meta property="og:description" content="Using Quarto to blog with Python via LinkedIn Learning">
-<meta property="og:image" content="post-preview.png">
+<meta property="og:image" content="https://frabjous-narwhal-9b2689.netlify.app/posts/2025-08-08_hello-world-with-palmer-penguins/post-preview.png">
 <meta property="og:site_name" content="A Blog With Python Thanks to Quarto">
+<meta property="og:image:height" content="1084">
+<meta property="og:image:width" content="1628">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -318,7 +320,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/frabjous-narwhal-9b2689\.netlify\.app");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
