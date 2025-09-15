@@ -1,6 +1,7 @@
 ---
 title: "Shiny Fishing Game"
 author: "Charlotte Hadley"
+image: "images/logo_gpcds_colour.png"
 open-graph:
     description: "More of an idea than a project, really"
     title: "Shiny Fishing Game"

@@ -7,6 +7,7 @@ website:
   open-graph:
     title: "Charlotte's Data Blog"
     description: "Using Quarto to blog with Python via LinkedIn Learning"
+    image: "/images/logo_gpcds_colour.png"
   navbar:
     left:
       - text: "Data blog"
