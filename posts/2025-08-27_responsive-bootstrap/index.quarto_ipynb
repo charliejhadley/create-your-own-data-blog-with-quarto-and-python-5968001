@@ -1,0 +1,136 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Responsiveness and mobile devices\"\n",
+        "author: \"Charlotte Hadley\"\n",
+        "date: \"2025-08-27\"\n",
+        "---\n",
+        "\n",
+        "[Bootstrap's grid layout system](https://quarto.org/docs/output-formats/page-layout.html#css-grid) provides true flexibility. It can get quite complicated.\n",
+        "\n",
+        "::: {.grid}\n",
+        "\n",
+        "::: {.g-col-6 .g-col-md-4}"
+      ],
+      "id": "3ab0b156"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles\n",
+        "m = Map(\n",
+        "  basemap=basemap_to_tiles(\n",
+        "    basemaps.NASAGIBS.ModisTerraTrueColorCR, \"2017-04-08\"\n",
+        "  ),\n",
+        "  center=(51.476852, -0.000500),\n",
+        "  zoom=4\n",
+        ")\n",
+        "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
+        "m"
+      ],
+      "id": "a3dcb7b5",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        ":::\n",
+        "\n",
+        "::: {.g-col-6 .g-col-md-4}"
+      ],
+      "id": "981a51c5"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles\n",
+        "m = Map(\n",
+        "  basemap=basemap_to_tiles(\n",
+        "    basemaps.OpenTopoMap, \"2017-04-08\"\n",
+        "  ),\n",
+        "  center=(51.476852, -0.000500),\n",
+        "  zoom=4\n",
+        ")\n",
+        "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
+        "m"
+      ],
+      "id": "9b4f06f4",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        ":::\n",
+        "\n",
+        "::: {.g-col-6 .g-col-md-4}"
+      ],
+      "id": "f6bf71db"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles\n",
+        "m = Map(\n",
+        "  basemap=basemap_to_tiles(\n",
+        "    basemaps.Esri.WorldImagery, \"2017-04-08\"\n",
+        "  ),\n",
+        "  center=(51.476852, -0.000500),\n",
+        "  zoom=4\n",
+        ")\n",
+        "m.add_layer(Marker(location=(51.476852, -0.000500)))\n",
+        "m"
+      ],
+      "id": "27e64ab0",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        ":::\n",
+        "\n",
+        ":::\n",
+        "\n",
+        "# Quarto's own formats\n",
+        "\n",
+        "There are several article layouts that give you more of the screen.\n",
+        "\n",
+        "::: {.aside}\n",
+        "Note you can use these [Quarto layouts](https://quarto.org/docs/authoring/article-layout.html) in any HTML format.\n",
+        ":::\n",
+        "\n",
+        "<hr/>\n",
+        "\n",
+        "::: {.column-screen}\n",
+        "![](../../images/tech-stack.png)\n",
+        ":::"
+      ],
+      "id": "28787792"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/opt/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

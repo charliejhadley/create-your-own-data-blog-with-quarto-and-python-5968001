@@ -111,10 +111,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta property="og:description" content="Using Quarto to blog with Python via LinkedIn Learning">
 <meta property="og:image" content="index_files/figure-html/cell-2-output-2.png">
 <meta property="og:site_name" content="A Blog With Python Thanks to Quarto">
-<meta name="twitter:title" content="Charlotte’s Data Blog">
-<meta name="twitter:description" content="Python blogging with Quarto for LinkedIn Learning">
-<meta name="twitter:image" content="index_files/figure-html/cell-2-output-2.png">
-<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -139,6 +135,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </i> 
 <span class="menu-text">Data blog</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-side-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-joystick" role="img">
+</i> 
+ <span class="menu-text">Side Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-side-projects">    
+        <li class="dropdown-header">Data projects</li>
+        <li>
+    <a class="dropdown-item" href="../../side-projects/shiny-fishing-project/index.html">
+ <span class="dropdown-text">Shiny fishing game</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Creative projects [Coming Soon]</li>
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -206,7 +218,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="accessing-_brand.yml-in-python-code." class="level2">
 <h2 class="anchored" data-anchor-id="accessing-_brand.yml-in-python-code.">Accessing _brand.yml in python code….</h2>
 <p>Here’s a plotnine chart that would look much nicer with our brand colours:</p>
-<div id="d694e056" class="cell" data-execution_count="1">
+<div id="aa3dfb87" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotnine <span class="im">as</span> pn</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> palmerpenguins <span class="im">import</span> load_penguins</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -218,9 +230,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        y<span class="op">=</span><span class="st">'Count'</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x1063de160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.
-/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x1063de160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.
-/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x1063de160&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.</code></pre>
+<pre><code>/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.
+/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.
+/opt/miniconda3/lib/python3.12/site-packages/plotnine/stats/stat_count.py:70: FutureWarning: The provided callable &lt;function sum at 0x112316200&gt; is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.</code></pre>
 </div>
 <div class="cell-output cell-output-display">
 <div>

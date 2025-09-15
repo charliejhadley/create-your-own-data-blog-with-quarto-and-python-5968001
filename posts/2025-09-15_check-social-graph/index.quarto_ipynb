@@ -1,0 +1,45 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Check time for social graph\"\n",
+        "author: \"Charlotte Hadley\"\n",
+        "date: 2025-09-15\n",
+        "---\n"
+      ],
+      "id": "b91634c5"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import datetime\n",
+        "datetime.datetime.now()"
+      ],
+      "id": "79fa6c99",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](listing-image.png)"
+      ],
+      "id": "9a0277c6"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/opt/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
