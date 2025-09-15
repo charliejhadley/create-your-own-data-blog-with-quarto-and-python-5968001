@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>https://frabjous-narwhal-9b2689.netlify.app/coffee-blog.html</link>
+<atom:link href="https://frabjous-narwhal-9b2689.netlify.app/coffee-blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<image>
+<url>https://frabjous-narwhal-9b2689.netlify.app/images/logo_gpcds_colour.png</url>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>https://frabjous-narwhal-9b2689.netlify.app/coffee-blog.html</link>
+</image>
+<generator>quarto-1.7.33</generator>
+<lastBuildDate>Thu, 07 Aug 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Dareshack: It’s not a dare, it’s just a great choice.</title>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/coffee-reviews/dareshack/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Dareshack is probably my favourite place to get a coffee in Bristol.</p>
+
+
+
+ ]]></description>
+  <category>Coffee review</category>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/coffee-reviews/dareshack/</guid>
+  <pubDate>Thu, 07 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://frabjous-narwhal-9b2689.netlify.app/coffee-reviews/dareshack/post-preview.png" medium="image" type="image/png" height="101" width="144"/>
+</item>
+<item>
+  <title>Cortado: When and why?</title>
+  <link>https://frabjous-narwhal-9b2689.netlify.app/coffee-reviews/cortado/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I really enjoy a cortado. But they’re very disappointing when made badly, so my rule is I only order them after an initial visit to a cafe or a very strong endorsement from a friend.</p>
+
+
+
+ ]]></description>
+  <category>☕️ opinion</category>
+  <guid>https://frabjous-narwhal-9b2689.netlify.app/coffee-reviews/cortado/</guid>
+  <pubDate>Thu, 07 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://frabjous-narwhal-9b2689.netlify.app/coffee-reviews/cortado/post-preview.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

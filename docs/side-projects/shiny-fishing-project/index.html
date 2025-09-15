@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-08">
+<meta name="author" content="Charlotte Hadley">
 
-<title>Cortado: When and why? – A Blog With Python Thanks to Quarto</title>
+<title>Shiny Fishing Game – A Blog With Python Thanks to Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Charlotte’s Data Blog">
-<meta property="og:description" content="Using Quarto to blog with Python via LinkedIn Learning">
-<meta property="og:image" content="https://frabjous-narwhal-9b2689.netlify.app/coffee-reviews/cortado/post-preview.jpg">
+<meta property="og:title" content="Shiny Fishing Game">
+<meta property="og:description" content="More of an idea than a project, really">
+<meta property="og:image" content="https://frabjous-narwhal-9b2689.netlify.app/side-projects/shiny-fishing-project/images/logo_gpcds_colour.png">
 <meta property="og:site_name" content="A Blog With Python Thanks to Quarto">
 </head>
 
@@ -148,23 +148,20 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Cortado: When and why?</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">☕️ opinion</div>
-  </div>
-  </div>
+<h1 class="title">Shiny Fishing Game</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 8, 2025</p>
-    </div>
+             <p>Charlotte Hadley </p>
+          </div>
   </div>
+    
   
     
   </div>
@@ -174,7 +171,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I really enjoy a cortado. But they’re very disappointing when made badly, so my rule is I only order them after an initial visit to a cafe or a very strong endorsement from a friend.</p>
+<p>Shiny is an incredibly framework for <a href="https://shiny.posit.co/py/gallery/">building interactive dashboards, web apps and more <strong>directly</strong> from Python</a>.</p>
+<p>Fishing minigames in Stardew Valley and similar games are really interesting to me. I have a side project exploring how different mathematical functions are used to create “bouncy” or “squelchy” bumps in the animations. There’s not much to share yet…</p>
+<p><img src="fishing-mini-game.gif" width="300px"></p>
 
 
 
@@ -578,6 +577,35 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001";
+    script.dataset.repoId = "R_kgDOPQTzMA";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "DIC_kwDOPQTzMM4CuuyO";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

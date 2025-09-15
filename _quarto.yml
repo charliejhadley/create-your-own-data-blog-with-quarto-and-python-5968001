@@ -4,15 +4,15 @@ project:
 
 website:
   title: "A Blog With Python Thanks to Quarto"
+  site-url: "https://frabjous-narwhal-9b2689.netlify.app"
+  image: "/images/logo_gpcds_colour.png"
   comments: 
     giscus:
       repo: charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001
-  twitter-card:
-    title: "Charlotte's Data Blog"
-    description: "Python blogging with Quarto for LinkedIn Learning"
   open-graph:
     title: "Charlotte's Data Blog"
     description: "Using Quarto to blog with Python via LinkedIn Learning"
+    image: "/images/logo_gpcds_colour.png"
   navbar:
     left:
       - text: "Data blog"
@@ -30,17 +30,16 @@ website:
       - text: "Coffee blog"
         icon: cup-hot-fill
         href: coffee-blog.qmd
-      - text: '<i class="fa-solid fa-qrcode"></i> About'
-        href: about.qmd
+      - about.qmd
       - icon: github
         href: https://github.com/
   page-footer:
-    foreground: rebeccapurple
     left: |
       This blog was written by Charlotte Hadley
       <br>I hope you enjoy it!
     center:
-      - text: "<i class='fa-solid fa-otter'></i> This works in the same way as the navbar"
+      - text: "This works in the same way as the navbar"
+        icon: info-circle-fill
     right:
       - icon: github
         href: https://github.com/charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001
@@ -52,5 +51,3 @@ format:
       - cosmo
       - custom.scss
     css: styles.css
-    include-in-header:
-        - text: <script src="https://kit.fontawesome.com/2c8252c536.js"></script>
